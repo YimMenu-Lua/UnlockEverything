@@ -225,7 +225,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPPLY_GANGOPS_ALLINORDER', -1)
         stats.set_int('MPPLY_GANGOPS_LOYALTY', -1)
         stats.set_int('MPPLY_GANGOPS_CRIMMASMD', -1)
-		stats.set_int('MPPLY_XMASLIVERIES20', -1)
+        stats.set_int('MPPLY_XMASLIVERIES20', -1)
         stats.set_int('MPX_HOLDUPS_BITSET', -1)
         stats.set_int('MPX_CHAR_ABILITY_1_UNLCK', -1)
         stats.set_int('MPX_CHAR_ABILITY_2_UNLCK', -1)
@@ -448,12 +448,55 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_LIFETIME_SELL_COMPLETE', 1003)
         stats.set_int('MPX_LIFETIME_SELL_UNDERTAKEN', 1003)
         stats.set_int('LIFETIME_CONTRA_EARNINGS', 2000000)
-		stats.set_int('MPX_CASINO_DECORATION_GIFT_1', -1);
-		stats.set_bool('MPX_COMPLETE_H4_F_USING_VETIR', true);
-		stats.set_bool('MPX_COMPLETE_H4_F_USING_LONGFIN', true);
-		stats.set_bool('MPX_COMPLETE_H4_F_USING_ANNIH', true);
-		stats.set_bool('MPX_COMPLETE_H4_F_USING_ALKONOS', true);
-		stats.set_bool('MPX_COMPLETE_H4_F_USING_PATROLB', true);
+        stats.set_int('MPX_CASINO_DECORATION_GIFT_1', -1);
+        stats.set_bool('MPX_COMPLETE_H4_F_USING_VETIR', true);
+        stats.set_bool('MPX_COMPLETE_H4_F_USING_LONGFIN', true);
+        stats.set_bool('MPX_COMPLETE_H4_F_USING_ANNIH', true);
+        stats.set_bool('MPX_COMPLETE_H4_F_USING_ALKONOS', true);
+        stats.set_bool('MPX_COMPLETE_H4_F_USING_PATROLB', true);
+        stats.set_bool('MPX_AWD_DEADEYE', true) -- Badlands Revenge II -- Dead Eye
+        stats.set_bool('MPX_AWD_PISTOLSATDAWN', true) -- Badlands Revenge II -- Pistols At Dawn
+        stats.set_bool('MPX_AWD_TRAFFICAVOI', true) -- Race and Chase -- Beat the Traffic
+        stats.set_bool('MPX_AWD_CANTCATCHBRA', true) -- Race and Chase -- All Wheels
+        stats.set_bool('MPX_AWD_WIZHARD', true) -- The Wizard's Ruin -- Feelin' Grogy
+        stats.set_bool('MPX_AWD_APEESCAPE', true) -- Space Monkey 3: Bananas Gone Bad -- Ape Escape
+        stats.set_bool('MPX_AWD_MONKEYKIND', true) -- Space Monkey 3: Bananas Gone Bad -- Monkey Mind
+        stats.set_bool('MPX_AWD_AQUAAPE', true) -- Monkey Paradise -- Aquatic Ape
+        stats.set_bool('MPX_AWD_KEEPFAITH', true) -- Defender of the Faith -- Keeping The Faith
+        stats.set_bool('MPX_AWD_TRUELOVE', true) -- The Love Professor -- True Love
+        stats.set_bool('MPX_AWD_NEMESIS', true) -- The Love Professor -- Nemesis
+        stats.set_bool('MPX_AWD_FRIENDZONED', true) -- The Love Professor -- Friendzoned
+        stats.set_bool('MPX_SCGW_WON_NO_DEATHS', true) -- Street Crimes: Gang Wars Edition -- Win a game without taking any damage
+        stats.set_bool('MPX_IAP_CHALLENGE_0', true) -- Invade and Persuade II -- Score over 2,000,000 in a single playthrough
+        stats.set_bool('MPX_IAP_CHALLENGE_1', true) -- Invade and Persuade II -- Collect 88 barrels in a single playthrough
+        stats.set_bool('MPX_IAP_CHALLENGE_2', true) -- Invade and Persuade II -- Kill 100 animals in a single playthrough
+        stats.set_bool('MPX_IAP_CHALLENGE_3', true) -- Invade and Persuade II -- Travel 3,474,000km on the moon
+        stats.set_bool('MPX_IAP_CHALLENGE_4', true) -- Invade and Persuade II -- Finish any level of Invade and persuade with over 7 livee
+        stats.set_bool('MPX_AWD_KINGOFQUB3D', true) -- QUB3D -- King Of QUB3D
+        stats.set_bool('MPX_AWD_QUBISM', true) -- QUB3D -- Qubism
+        stats.set_bool('MPX_AWD_GODOFQUB3D', true) -- QUB3D -- God Of QUB3D
+        stats.set_bool('MPX_AWD_QUIBITS', true) -- QUB3D -- Qubits
+        stats.set_bool('MPX_AWD_ELEVENELEVEN', true) -- Axe Of Fury -- 11 11
+        stats.set_bool('MPX_AWD_GOFOR11TH', true) -- Axe Of Fury -- Crank It To 11
+        stats.set_bool('MPX_AWD_STRAIGHT_TO_VIDEO', true) -- Camhedz -- Straight To Video
+        stats.set_bool('MPX_AWD_MONKEY_C_MONKEY_DO', true) -- Camhedz -- Monkey See Monkey Do
+        stats.set_bool('MPX_AWD_TRAINED_TO_KILL', true) -- Camhedz -- Trained to Kill
+        stats.set_bool('MPX_AWD_DIRECTOR', true) -- Camhedz -- The Director
+        stats.set_int('MPX_AWD_SHARPSHOOTER', 40) -- Badlands Revenge II -- Sharpshooter
+        stats.set_int('MPX_AWD_RACECHAMP', 40) -- Race and Chase -- Race Champion
+        stats.set_int('MPX_AWD_BATSWORD', 1000000) -- The Wizard's Ruin -- Platinum Sword
+        stats.set_int('MPX_AWD_COINPURSE', 950000) -- The Wizard's Ruin -- Platinum Sword -- Coin Purse
+        stats.set_int('MPX_AWD_ASTROCHIMP', 3000000) -- Space Monkey 3: Bananas Gone Bad -- Astrochimp
+        stats.set_int('MPX_AWD_MASTERFUL', 40000) -- Penetrator -- Masterful
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_0', 55) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 1
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_1', 56) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 2
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_2', 57) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 3
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_3', 58) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 4
+        stats.set_int('MPX_IAP_MAX_MOON_DIST', 2147483647) -- Invade and Persuade II -- Travel 3,474,000km on the moon
+        stats.set_int('MPX_LAST_ANIMAL', 108) -- Invade and Persuade II -- Kill 100 animals in a single playthrough
+        stats.set_int('MPX_CH_ARC_CAB_CLAW_TROPHY', -1) -- Kitty Claw Trophy
+        stats.set_int('MPX_CH_ARC_CAB_LOVE_TROPHY', -1) -- The Love Professor Trophy
+        stats.set_int('MPX_AWD_FACES_OF_DEATH', 50) -- Camhedz -- Faces Of Death
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
