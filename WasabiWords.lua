@@ -40,7 +40,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(18134, 18137) --Hideous Krampus Mask, Fearsome Krampus Mask, Odious Krampus Mask, Heinous Krampus Mask
         unlock_packed_bools(22073, 22073) --Stone Hatchet
         unlock_packed_bools(22124, 22132) --Maisonette Los Santos T-Shirt, Studio Los Santos T-Shirt, Galaxy T-Shirt, Gefängnis T-Shirt, Omega T-Shirt, Technologie T-Shirt, Paradise T-Shirt, The Palace T-Shirt, Tony's Fun House T-Shirt
-        unlock_packed_bools(22147, 22178) --White The Black Madonna T-Shirt, Black The Black Madonna T-Shirt, White The Black Madonna Emb. T-Shirt, Black The Black Madonna Emb. T-Shirt, White The Black Madonna Init. T-Shirt, The Black Madonna Star T-Shirt, Black The Black Madonna Init. T-Shirt, The Black Madonna We Believe T-Shirt, Dixon Green Logo T-Shirt, Dixon Glitch Logo T-Shirt, Dixon Box Logo T-Shirt, Dixon Pocket Logo T-Shirt, White Dixon Repeated Logo T-Shirt, Black Dixon Repeated Logo T-Shirt, White Dixon Wilderness T-Shirt, Black Dixon Wilderness Tee, Tale Of Us Box Logo T-Shirt, White Tale Of Us Logo T-Shirt, Black Tale Of Us Logo T-Shirt, Tale Of Us Black Box T-Shirt, Tale Of Us Stacked Logo T-Shirt, Tale Of Us Afterlight T-Shirt, White Tale Of Us Emb. T-Shirt, Black Tale Of Us Emb. T-Shirt, White Solomun Logo T-Shirt, Black Solomun Yellow Logo Tee, Black Solomun White Logo T-Shirt, White Solomun T-Shirt, Black And Yellow Solomun T-Shirt, Black And White Solomun T-Shirt, White Solomun Pocket Logo T-Shirt, Black Solomun Pocket Logo T-Shirt
+        unlock_packed_bools(22124, 22132) --Maisonette Los Santos T-Shirt, Studio Los Santos T-Shirt, Galaxy T-Shirt, Gefängnis T-Shirt, Omega T-Shirt, Technologie T-Shirt, Paradise T-Shirt, The Palace T-Shirt, Tony's Fun House T-Shirt
+        unlock_packed_bools(22137, 22139) --Nightclub Hotspot Trophy
         unlock_packed_bools(24963, 25000) --Apocalypse Cerberus, Future Shock Cerberus, Apocalypse Brutus, Nightmare Cerberus, Apocalypse ZR380, Future Shock Brutus, Impaler, Bolt Burger Hunger T-Shirt, Apocalypse Sasquatch - Livery set, Rat-Truck, Glendale, Slamvan, Dominator, Issi Classic, Spacesuit Alien T-Shirt set, Gargoyle, Future Shock Deathbike - Light Armor w/ Shield, Blue Lights, Electric Blue Lights, Mint Green Lights, Lime Green Lights, Yellow Lights, Golden Shower Lights, Orange Lights, Red Lights, Pony Pink Lights, Hot Pink Lights, Purple Lights, Blacklight Lights, Taxi Custom, Dozer, Clown Van, Trashmaster, Barracks Semi, Mixer, Space Docker, Tractor, Nebula Bodysuit set
         unlock_packed_bools(25002, 25002) --Up-n-Atomizer
         unlock_packed_bools(25005, 25006) --Epsilon Robes, Kifflom T-Shirt
@@ -438,6 +439,19 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_SCRIPT_INCREASE_LUNG', 100)
         stats.set_int('MPX_SCRIPT_INCREASE_DRIV', 100)
         stats.set_int('MPX_SCRIPT_INCREASE_SHO', 100)
+        stats.set_int('MPX_AWD_DANCE_TO_SOLOMUN', 360)
+        stats.set_int('NIGHTCLUB_HOTSPOT_TIME_MS', 3600000)
+        stats.set_int('MPX_LIFETIME_BUY_COMPLETE', 1001)
+        stats.set_int('MPX_LIFETIME_BUY_UNDERTAKEN', 1001)
+        stats.set_int('MPX_LIFETIME_SELL_COMPLETE', 1003)
+        stats.set_int('MPX_LIFETIME_SELL_UNDERTAKEN', 1003)
+        stats.set_int('LIFETIME_CONTRA_EARNINGS', 2000000)
+		stats.set_int('MPX_CASINO_DECORATION_GIFT_1', -1);
+		stats.set_bool('MPX_COMPLETE_H4_F_USING_VETIR', true);
+		stats.set_bool('MPX_COMPLETE_H4_F_USING_LONGFIN', true);
+		stats.set_bool('MPX_COMPLETE_H4_F_USING_ANNIH', true);
+		stats.set_bool('MPX_COMPLETE_H4_F_USING_ALKONOS', true);
+		stats.set_bool('MPX_COMPLETE_H4_F_USING_PATROLB', true);
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
