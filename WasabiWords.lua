@@ -504,6 +504,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_CH_ARC_CAB_CLAW_TROPHY', -1) -- Kitty Claw Trophy
         stats.set_int('MPX_CH_ARC_CAB_LOVE_TROPHY', -1) -- The Love Professor Trophy
         stats.set_int('MPX_AWD_FACES_OF_DEATH', 50) -- Camhedz -- Faces Of Death
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 13990, stats.get_character_index()), 50) -- Navy Revolver Kills
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
