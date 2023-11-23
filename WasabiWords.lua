@@ -507,6 +507,17 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
         stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, 121, stats.get_character_index()), tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 8837, stats.get_character_index()), -1) -- Trade Price for Diamond Casino Heist Finale.
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9586, stats.get_character_index()), -1) -- Trade Price for MP0_H4_H4_DJ_MISSIONS
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9511, stats.get_character_index()), -1) -- Trade Price for winky
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9618, stats.get_character_index()), -1) -- Trade Price for tailgater2
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9903, stats.get_character_index()), 1) -- Trade Price for buffalo4
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 10393, stats.get_character_index()), -1) -- Trade Price greenwood/conada
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 11948, stats.get_character_index()), -1) -- Trade Price Raiju
+        for i = 281, 285 do
+            stats.set_bool(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(2, i, stats.get_character_index()), true) -- Trade Price for ITALIRSX/BRIOSO2/WEEVIL
+        end
+        stats.set_bool(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(10, 450, stats.get_character_index()), true) -- Trade Price for taxi
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
