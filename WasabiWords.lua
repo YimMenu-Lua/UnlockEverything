@@ -506,6 +506,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 13990, stats.get_character_index()), 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
+        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, 121, stats.get_character_index()), tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
