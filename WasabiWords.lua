@@ -503,20 +503,19 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_CH_ARC_CAB_CLAW_TROPHY', -1) -- Kitty Claw Trophy
         stats.set_int('MPX_CH_ARC_CAB_LOVE_TROPHY', -1) -- The Love Professor Trophy
         stats.set_int('MPX_AWD_FACES_OF_DEATH', 50) -- Camhedz -- Faces Of Death
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 13990, stats.get_character_index()), 50) -- Navy Revolver Kills
+        stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, 121, stats.get_character_index()), tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 8837, stats.get_character_index()), -1) -- Trade Price for Diamond Casino Heist Finale.
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9586, stats.get_character_index()), -1) -- Trade Price for MP0_H4_H4_DJ_MISSIONS
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9511, stats.get_character_index()), -1) -- Trade Price for winky
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9618, stats.get_character_index()), -1) -- Trade Price for tailgater2
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 9903, stats.get_character_index()), 1) -- Trade Price for buffalo4
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 10393, stats.get_character_index()), -1) -- Trade Price greenwood/conada
-        stats.set_int(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(0, 11948, stats.get_character_index()), -1) -- Trade Price Raiju
-        for i = 281, 285 do
-            stats.set_bool(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(2, i, stats.get_character_index()), true) -- Trade Price for ITALIRSX/BRIOSO2/WEEVIL
-        end
+        stats.set_int("MPX_PET_CHOP_TIME", NETWORK.GET_CLOUD_TIME_AS_INT() - 86400) -- Pet Chop Time?
+        stats.set_bool("MPX_AWD_DOGS_BEST_FRIEND", true) -- Pet Chop Time?
+        stats.set_int("MPX_AWD_CALLME", tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
+        stats.set_int("MPX_H3_VEHICLESUSED", -1) -- Trade Price for Diamond Casino Heist Finale.
+        stats.set_int("MPX_H4_H4_DJ_MISSIONS", -1) -- Trade Price for MP0_H4_H4_DJ_MISSIONS
+        stats.set_int("MPX_H4_PROGRESS", -1) -- Trade Price for winky
+        stats.set_int("MPX_TUNER_GEN_BS", -1) -- Trade Price for tailgater2
+        stats.set_int("MPX_FIXER_HQ_OWNED", 1) -- Trade Price for buffalo4
+        stats.set_int("MPX_ULP_MISSION_PROGRESS", -1) -- Trade Price greenwood/conada
+        stats.set_int("MPX_SUM23_AVOP_PROGRESS", -1) -- Trade Price Raiju
         stats.set_bool(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(10, 450, stats.get_character_index()), true) -- Trade Price for taxi
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
