@@ -516,6 +516,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_FIXER_HQ_OWNED", 1) -- Trade Price for buffalo4
         stats.set_int("MPX_ULP_MISSION_PROGRESS", -1) -- Trade Price greenwood/conada
         stats.set_int("MPX_SUM23_AVOP_PROGRESS", -1) -- Trade Price Raiju
+        stats.set_int("MPX_GANGOPS_FLOW_BITSET_MISS0", -1) -- Trade Price for deluxo/akula/riot2/stromberg/chernobog/barrage/khanjali/volatol/thruster
         stats.set_bool("MPX_AWD_TAXISTAR", true) -- Trade Price for taxi
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
