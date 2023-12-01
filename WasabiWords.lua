@@ -518,6 +518,12 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_SUM23_AVOP_PROGRESS", -1) -- Trade Price Raiju
         stats.set_int("MPX_GANGOPS_FLOW_BITSET_MISS0", -1) -- Trade Price for deluxo/akula/riot2/stromberg/chernobog/barrage/khanjali/volatol/thruster
         stats.set_bool("MPX_AWD_TAXISTAR", true) -- Trade Price for taxi
+        stats.set_bool("MPPLY_AWD_HST_ORDER", true)
+        stats.set_bool("MPPLY_AWD_HST_SAME_TEAM", true)
+        stats.set_bool("MPPLY_AWD_HST_ULT_CHAL", true)
+        stats.set_int("MPPLY_HEISTFLOWORDERPROGRESS", -1)
+        stats.set_int("MPPLY_HEISTNODEATHPROGREITSET", -1)
+        stats.set_int("MPPLY_HEISTTEAMPROGRESSBITSET", -1)
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
