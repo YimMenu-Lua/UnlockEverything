@@ -4,6 +4,10 @@ function unlock_packed_bools(from, to)
     end
 end
 
+-- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
+local current_objectives_global = 2359296
+local objectives_state_global = 1574742
+
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
 wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasabi
@@ -524,6 +528,13 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPPLY_HEISTFLOWORDERPROGRESS", -1)
         stats.set_int("MPPLY_HEISTNODEATHPROGREITSET", -1)
         stats.set_int("MPPLY_HEISTTEAMPROGRESSBITSET", -1)
+        stats.set_int("MPX_CONSECUTIVEDAYCOMPLETED", 7)
+        stats.set_int("MPX_CONSECUTIVEWEEKCOMPLETED", 4)
+        for i = 0, 2 do --Unlock all daily rewards.
+            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5568)) + 681 + 4242 +  (1 + (i * 3)))
+            globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
+        end
+        globals.set_int(objectives_state_global, 1)
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
