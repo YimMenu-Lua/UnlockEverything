@@ -1,6 +1,6 @@
 function unlock_packed_bools(from, to)
     for i = from, to do
-        STATS.SET_PACKED_STAT_BOOL_CODE(i, true, stats.get_character_index())
+        stats.set_packed_stat_bool(i, true)
     end
 end
 
@@ -545,12 +545,12 @@ wasabi_words:add_sameline()
 
 wasabi_words:add_button("Unlock All Awards", function()
     script.run_in_fiber(function (script)
-		for i = 0, 151 do
-			STATS.STAT_SET_INT(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, i, stats.get_character_index()), 2147483647, true) -- should be fine?
-		end
-		for i = 0, 167 do
-			STATS.STAT_SET_BOOL(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(10, i, stats.get_character_index()), true, true)
-		end
+        for i = 0, 151 do
+            STATS.STAT_SET_INT(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, i, stats.get_character_index()), 2147483647, true) -- should be fine?
+        end
+        for i = 0, 167 do
+            STATS.STAT_SET_BOOL(STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(10, i, stats.get_character_index()), true, true)
+        end
         gui.show_message('WasabiWordsTM', 'All Awards Unlocked')
     end)
 end)
