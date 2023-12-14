@@ -133,6 +133,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(32164, 32164) --Red Redwood Retro Racing
         unlock_packed_bools(32174, 32174) --Crash Out Print Hoodie
         unlock_packed_bools(32224, 32224) --Tuned For Speed Racing Suit
+        unlock_packed_bools(32319, 32323) --police5 trade price
         unlock_packed_bools(34262, 34361) --LD Organics
         unlock_packed_bools(32273, 32273) --White Born x Raised T-Shirt
         unlock_packed_bools(32275, 32275) --Circoloco T-Shirt
@@ -145,6 +146,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(34415, 34510) --Green Vintage Frank, Brown Vintage Frank, Gray Vintage Frank, Pale Vintage Mummy, Green Vintage Mummy, Weathered Vintage Mummy, Conquest, Death, Famine, War, Black Tech Demon, Gray Tech Demon, White Tech Demon, Green Tech Demon, Orange Tech Demon, Purple Tech Demon, Pink Tech Demon, Red Detail Tech Demon, Blue Detail Tech Demon, Yellow Detail Tech Demon, Green Detail Tech Demon, Pink Detail Tech Demon, Orange & Gray Tech Demon, Red Tech Demon, Camo Tech Demon, Aqua Camo Tech Demon, Brown Digital Tech Demon, Gold Tech Demon, Orange & Cream Tech Demon, Green & Yellow Tech Demon, Pink Floral Tech Demon, Black & Green Tech Demon, White & Red Tech Demon, Carbon Tech Demon, Carbon Teal Tech Demon, Black & White Tech Demon, Painted Tiger, Gray Painted Tiger, Gold Painted Tiger, Ornate Painted Tiger, Gray Yeti Flat Cap, Woodland Yeti Flat Cap, Green FB Flat Cap, Blue FB Flat Cap, Gray Lézard Flat Cap, Green Lézard Flat Cap, Light Plaid Lézard Flat Cap, Dark Plaid Lézard Flat Cap, White Striped Lézard Flat Cap, Red Striped Lézard Flat Cap, Brown Crevis Flat Cap, Gray Crevis Flat Cap, Black Broker Flat Cap, Burgundy Broker Flat Cap, White Beat Off Earphones, Yellow Beat Off Earphones, Salmon Beat Off Earphones, Orange Beat Off Earphones, Purple Beat Off Earphones, Pink Beat Off Earphones, Turquoise Beat Off Earphones, Blue Beat Off Earphones, Black Beat Off Earphones, Gray Beat Off Earphones, Teal Beat Off Earphones, Red Beat Off Earphones, Wild Striped Pool Sliders, Neon Striped Pool Sliders, Black SC Coin Pool Sliders, White SC Coin Pool Sliders, Black SC Pattern Pool Sliders, Pink SC Pattern Pool Sliders, Blue SC Pattern Pool Sliders, Camo Yeti Pool Sliders, Gray Camo Yeti Pool Sliders, Black Bigness Pool Sliders, Purple Bigness Pool Sliders, Camo Bigness Pool Sliders, Black Blagueurs Pool Sliders, White Blagueurs Pool Sliders, Pink Blagueurs Pool Sliders, Gray Cimicino Pool Sliders, Rouge Cimicino Pool Sliders, Navy DS Pool Sliders, Red DS Pool Sliders, Floral Güffy Pool Sliders, Green Güffy Pool Sliders, White Güffy Pool Sliders, Blue Heat Pool Sliders, Red ProLaps Pool Sliders, Black LD Organics T-Shirt, Green UFO Boxer Shorts, White UFO Boxer Shorts, Gray Believe Backwards Cap, Black Believe Backwards Cap, Glow Believe Backwards Cap
         unlock_packed_bools(34703, 34705) --White Vintage Vampire, Dark Green Vintage Vampire, Light Green Vintage Vampire
         unlock_packed_bools(34730, 34737) --Green Festive Beer Hat, Red Snowflake Beer Hat, Blue Snowflake Beer Hat, Red Holly Beer Hat, Pisswasser Festive Beer Hat, Blarneys Festive Beer Hat, Red Reindeer Beer Hat, Borfmas
+        unlock_packed_bools(34761, 34761) --Gooch Outfit
         unlock_packed_bools(36630, 36654) --Snowman
         unlock_packed_bools(36699, 36770) --Ice Vinyl, Ice Vinyl Cut, Mustard Vinyl, Mustard Vinyl Cut, Dark Blue Vinyl, Dark Blue Vinyl Cut, Yellow SN Rooster Revere Collar, Red SC Dragon Revere Collar, Blue SC Dragon Revere Collar, Camo Roses Slab Denim, Orange Trickster Type Denim, Black VDG Cardigan, Blue DS Panthers Cardigan, Red DS Panthers Cardigan, Pink SC Baroque Cardigan, Downtown Cab Co. Revere Collar, Valentines Blazer, 420 Smoking Jacket, Yeti Year of the Rabbit T-Shirt, Gray Yeti Combat Shirt, Black Sprunk Festive, Dark Logger Festive, White Logger Festive, Green Logger Festive, Red Logger Festive, Blue Patriot Logo Festive, Black Patriot Logo Festive, Blue Patriot Festive, Red Patriot Festive, Red Pisswasser Festive, Gold Pisswasser Festive, Red Pisswasser Logo Festive, Gold Pisswasser Logo Festive, Green Pride Brew Festive, Yellow Pride Brew Festive, Yellow Holly Pride Festive, White Holly Pride Festive, Sprunk Snowflakes Festive, Broker Checkerboard T-Shirt, Yeti Ape Tucked T-Shirt, Black Bigness Ski, White Bigness Ski, Black Enema Flourish Ski, Teal Enema Flourish Ski, Magenta Enema Flourish Ski, Camo Roses Slab Forwards, Lime Leopard Slab Forwards, Red SC Dragon Embroidered, Classic DS Tiger Embroidered, Gray DS Tiger Embroidered, Black VDG Bandana Wide, Orange Trickster Type Wide, Gray Yeti Battle Pants, Broker Checkerboard Cargos, 420 Smoking Pants, Camo Roses Slab Canvas, Lime Leopard Slab Canvas, White Signs Squash Ugglies & Socks, Traditional Painted Rabbit, Twilight Painted Rabbit, Noh Painted Rabbit, Lime SC Coin Wraps, Pink SC Coin Wraps, Tan Bracelet Ensemble, Red Manor Round Brow Shades, Le Chien Whistle Necklace, Heartbreak Pendant, Rabbit, Budonk-adonk!, The Red-nosed, The Nutcracker, The GoPostal
         unlock_packed_bools(36774, 36784) --Johnny On The Spot Polo, The Gooch Mask, Snowman Outfit, Gold New Year Glasses, Silver New Year Glasses, Rainbow New Year Glasses, Yellow Holly Beer Hat, Green Reindeer Beer Hat, Zebra Dome, Purple Snakeskin Spiked, Manor Surano Jacket
@@ -157,9 +159,15 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(41894, 41894) --Hinterland Work T-Shirt
         unlock_packed_bools(41897, 41902) --Love Fist T-Shirt, San Andreas Federal Reserve T-Shirt, Los Santos, San Andreas T-Shirt, Heist Mask T-Shirt, Los Santos Map T-Shirt, PRB T-Shirt
         unlock_packed_bools(41915, 41941) --LS Pounders Cap, Vom Feuer Camo Cap, Western MC Cap, Red & White Ammu-Nation Cap, Santo Capra Cap, Alpine Hat, Alien Tracksuit Pants, Scarlet Vintage Devil Mask, Amber Vintage Devil Mask, Green Vintage Devil Mask, Green Vintage Witch Mask, Yellow Vintage Witch Mask, Orange Vintage Witch Mask, Green Vintage Skull Mask, White Vintage Skull Mask, Brown Vintage Skull Mask, Orange Vintage Werewolf Mask, Blue Vintage Werewolf Mask, Brown Vintage Werewolf Mask, Green Vintage Zombie Mask, Brown Vintage Zombie Mask, Teal Vintage Zombie Mask, Turkey Mask, Royal Calacas Mask, Maritime Calacas Mask, Romance Calacas Mask, Floral Calacas Mask
-        unlock_packed_bools(41943, 41980) --The Homie, The Retired Criminal, The Groupie, Black SC Ornate Mini Dress, Dark Manor Racing Suit, Bright Manor Racing Suit, Hinterland Bomber Jacket, Red Happy Moon T-Shirt, Black Happy Moon T-Shirt, White Happy Moon T-Shirt, Rockstar Says Relax Tucked T-Shirt, Trevor Heist Mask Tucked T-Shirt, Franklin Heist Mask Tucked T-Shirt, Michael Heist Mask Tucked T-Shirt, Bugstars Tucked T-Shirt, STD Contractors Tucked T-Shirt, Black Los Santos Tucked T-Shirt, San Andreas Republic Tucked T-Shirt, Go Go Space Monkey Tucked T-Shirt, Vom Feuer Camo Tucked T-Shirt, Black SC Ornate Tucked T-Shirt, Warstock Tucked T-Shirt, Western San Andreas Tucked T-Shirt, Ride or Die Tucked T-Shirt, Bourgeoix Tucked T-Shirt, Blêuter'd Tucked T-Shirt, Cherenkov Tucked T-Shirt, Moodymann Portrait Tucked T-Shirt, Rockstar Silver Jubilee Tucked T-Shirt, Rockstar NY Hoodie, Dollar Daggers Hoodie, Merryweather Hoodie, Go Go Space Monkey Hoodie, Rockstar Lion Crest T-Shirt, Ammu-Nation Baseball T-Shirt, Alien Hooded Tracksuit Top, Manor Benefactor Surano T-Shirt, LS Smoking Jacket
+        unlock_packed_bools(41942, 41980) --police5 trade price, The Homie, The Retired Criminal, The Groupie, Black SC Ornate Mini Dress, Dark Manor Racing Suit, Bright Manor Racing Suit, Hinterland Bomber Jacket, Red Happy Moon T-Shirt, Black Happy Moon T-Shirt, White Happy Moon T-Shirt, Rockstar Says Relax Tucked T-Shirt, Trevor Heist Mask Tucked T-Shirt, Franklin Heist Mask Tucked T-Shirt, Michael Heist Mask Tucked T-Shirt, Bugstars Tucked T-Shirt, STD Contractors Tucked T-Shirt, Black Los Santos Tucked T-Shirt, San Andreas Republic Tucked T-Shirt, Go Go Space Monkey Tucked T-Shirt, Vom Feuer Camo Tucked T-Shirt, Black SC Ornate Tucked T-Shirt, Warstock Tucked T-Shirt, Western San Andreas Tucked T-Shirt, Ride or Die Tucked T-Shirt, Bourgeoix Tucked T-Shirt, Blêuter'd Tucked T-Shirt, Cherenkov Tucked T-Shirt, Moodymann Portrait Tucked T-Shirt, Rockstar Silver Jubilee Tucked T-Shirt, Rockstar NY Hoodie, Dollar Daggers Hoodie, Merryweather Hoodie, Go Go Space Monkey Hoodie, Rockstar Lion Crest T-Shirt, Ammu-Nation Baseball T-Shirt, Alien Hooded Tracksuit Top, Manor Benefactor Surano T-Shirt, LS Smoking Jacket
         unlock_packed_bools(41994, 41994) --Junk Energy Racing Suit
         unlock_packed_bools(41996, 41996) --??? T-Shirt
+        unlock_packed_bools(42068, 42069) --Snowman Finish for Combat Pistol, Santa's Helper Finish for Heavy Sniper
+        unlock_packed_bools(42119, 42119) --Yeti Outfit
+        unlock_packed_bools(42123, 42123) --riot unlocked
+        unlock_packed_bools(42125, 42125) --riot trade price
+        unlock_packed_bools(42148, 42148) --Snow Launcher
+        unlock_packed_bools(42233, 42234) --boxville6/benson2 unlock
         if is_player_male then
             unlock_packed_bools(3483, 3492) --Death Defying T-Shirt (Male), For Hire T-Shirt (Male), Gimme That T-Shirt (Male), Asshole T-Shirt (Male), Can't Touch This T-Shirt (Male), Decorated T-Shirt (Male), Psycho Killer T-Shirt (Male), One Man Army T-Shirt (Male), Shot Caller T-Shirt (Male), Showroom T-Shirt (Male)
             unlock_packed_bools(6082, 6083) --Black Benny's T-Shirt, White Benny's T-Shirt
@@ -209,19 +217,20 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
             unlock_packed_bools(30429, 30433) --Faces of Death Tee (Female), Straight to Video Tee (Female), Monkey See Monkey Die Tee (Female), Trained to Kill Tee (Female), The Director Tee (Female)
             unlock_packed_bools(41285, 41296) --Monkey (Tattoo) (Female), Dragon (Tattoo) (Female), Snake (Tattoo) (Female), Goat (Tattoo) (Female), Rat (Tattoo) (Female), Rabbit (Tattoo) (Female), Ox (Tattoo) (Female), Pig (Tattoo) (Female), Rooster (Tattoo) (Female), Dog (Tattoo) (Female), Horse (Tattoo) (Female), Tiger (Tattoo) (Female)
         end
-        STATS.SET_PACKED_STAT_INT_CODE(7315, 6, stats.get_character_index()) --WEAPON_STONE_HATCHET
-        STATS.SET_PACKED_STAT_INT_CODE(18981, 4, stats.get_character_index()) --WEAPON_DOUBLEACTION
-        STATS.SET_PACKED_STAT_INT_CODE(22050, 5, stats.get_character_index()) --Oppressor MK2 Trade Price
-        STATS.SET_PACKED_STAT_INT_CODE(22051, 50, stats.get_character_index()) --Carved Wooden Box (Nightclub)
-        STATS.SET_PACKED_STAT_INT_CODE(22052, 100, stats.get_character_index()) --Ammo Box
-        STATS.SET_PACKED_STAT_INT_CODE(22053, 20, stats.get_character_index()) --Meth
-        STATS.SET_PACKED_STAT_INT_CODE(22054, 80, stats.get_character_index()) --Weed
-        STATS.SET_PACKED_STAT_INT_CODE(22055, 60, stats.get_character_index()) --Passports
-        STATS.SET_PACKED_STAT_INT_CODE(22056, 40, stats.get_character_index()) --Crumpled Cash
-        STATS.SET_PACKED_STAT_INT_CODE(22057, 10, stats.get_character_index()) --Impotent Rage Statue
-        STATS.SET_PACKED_STAT_INT_CODE(22058, 20, stats.get_character_index()) --Gold Business Battle Trophy (Nightclub)
-        STATS.SET_PACKED_STAT_INT_CODE(22063, 20, stats.get_character_index()) --Dinka Go Go Monkey Blista
-        STATS.SET_PACKED_STAT_INT_CODE(41237, 10, stats.get_character_index()) --Taxi Livery
+        stats.set_packed_stat_int(7315, 6) --WEAPON_STONE_HATCHET
+        stats.set_packed_stat_int(18981, 4) --WEAPON_DOUBLEACTION
+        stats.set_packed_stat_int(22050, 5) --Oppressor MK2 Trade Price
+        stats.set_packed_stat_int(22051, 50) --Carved Wooden Box (Nightclub)
+        stats.set_packed_stat_int(22052, 100) --Ammo Box
+        stats.set_packed_stat_int(22053, 20) --Meth
+        stats.set_packed_stat_int(22054, 80) --Weed
+        stats.set_packed_stat_int(22055, 60) --Passports
+        stats.set_packed_stat_int(22056, 40) --Crumpled Cash
+        stats.set_packed_stat_int(22057, 10) --Impotent Rage Statue
+        stats.set_packed_stat_int(22058, 20) --Gold Business Battle Trophy (Nightclub)
+        stats.set_packed_stat_int(22063, 20) --Dinka Go Go Monkey Blista
+        stats.set_packed_stat_int(41237, 10) --Taxi Livery
+        stats.set_packed_stat_int(42122, 5) --Skull Santa Finish for Special Carbine
         stats.set_int('MPPLY_CREW_NO_HEISTS_0', 2)
         stats.set_int('MPPLY_CREW_NO_HEISTS_1', 5)
         stats.set_int('MPPLY_CREW_NO_HEISTS_2', 5)
@@ -528,10 +537,12 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPPLY_HEISTFLOWORDERPROGRESS", -1)
         stats.set_int("MPPLY_HEISTNODEATHPROGREITSET", -1)
         stats.set_int("MPPLY_HEISTTEAMPROGRESSBITSET", -1)
-        --stats.set_int("MPX_CONSECUTIVEDAYCOMPLETED", 7)
-        --stats.set_int("MPX_CONSECUTIVEWEEKCOMPLETED", 4)
         stats.set_int("MPX_AT_FLOW_VEHICLE_BS", -1) -- Trade price for dune4/dune5/wastelander/blazer5/phantom2/voltic2/technical2/boxville5/ruiner2
         stats.set_int("MPX_LFETIME_HANGAR_BUY_COMPLET", 50) -- Trade price for microlight/rogue/alphaz1/havok/starling/molotok/tula/bombushka/howard/mogul/pyro/seabreeze/nokota/hunter
+        stats.set_int("MPX_SALV23_GEN_BS", -1) -- police4 trade price
+        stats.set_int("MPX_SALV23_INST_PROG", -1) -- polgauntlet trade price
+        stats.set_int("MPX_SALV23_SCOPE_BS", -1) -- police5 trade price
+        stats.set_int("MPX_MOST_TIME_ON_3_PLUS_STARS", 300000) -- police4 trade price
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5568)) + 681 + 4242 +  (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
