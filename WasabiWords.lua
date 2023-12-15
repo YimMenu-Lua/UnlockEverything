@@ -6,7 +6,8 @@ end
 
 -- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
 local current_objectives_global = 2359296
-local objectives_state_global = 1574748
+local weekly_words_global = 2737646
+local objectives_state_global = 1574743
 
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
@@ -575,11 +576,43 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_SALV23_INST_PROG", -1) -- polgauntlet trade price
         stats.set_int("MPX_SALV23_SCOPE_BS", -1) -- police5 trade price
         stats.set_int("MPX_MOST_TIME_ON_3_PLUS_STARS", 300000) -- police4 trade price
+        stats.set_int("MPX_LOWRIDER_FLOW_COMPLETE", 1)
+        stats.set_int("MPX_AT_FLOW_MISSION_PROGRESS", 50)
+        stats.set_int("MPX_AT_FLOW_IMPEXP_NUM", 50)
+        stats.set_int("MPX_AT_FLOW_BITSET_MISSIONS0", -1)
+        stats.set_int("MPX_WVM_FLOW_MISSION_PROGRESS", 50)
+        stats.set_int("MPX_WVM_FLOW_IMPEXP_NUM", 50)
+        stats.set_int("MPX_WVM_FLOW_BITSET_MISSIONS0", -1)
+        stats.set_int("MPX_WVM_FLOW_VEHICLE_BS", -1)
+        stats.set_int("MPX_GANGOPS_FLOW_MISSION_PROG", -1)
+        stats.set_int("MPX_GANGOPS_FLOW_IMPEXP_NUM", 50)
+        stats.set_int("MPX_WAM_FLOW_VEHICLE_BS", -1)
+        stats.set_int("MPX_GANGOPS_FLOW_PASSED_BITSET", -1)
+        stats.set_int("MPX_VCM_FLOW_PROGRESS", -1)
+        stats.set_int("MPX_TUNER_FLOW_BS", -1)
+        stats.set_int("MPX_TUNER_MIS_BS", -1)
+        stats.set_int("MPX_TUNER_COMP_BS", -1)
+        stats.set_int("MPX_GANGOPS_FM_MISSION_PROG", -1)
+        stats.set_int("MPX_GANGOPS_FM_BITSET_MISS0", -1)
+        stats.set_bool("MPX_UNLOCKED_MESSAGE_FLEECA", true)
+        stats.set_bool("MPX_CARMEET_PV_CHLLGE_CMPLT", true)
+        --Make it think you've beat all the heists as leader.
+        stats.set_int("MPX_HEIST_SAVED_STRAND_0", tunables.get_int('ROOT_ID_HASH_THE_FLECCA_JOB'))
+        stats.set_int("MPX_HEIST_SAVED_STRAND_0_L", 5)
+        stats.set_int("MPX_HEIST_SAVED_STRAND_1", tunables.get_int('ROOT_ID_HASH_THE_PRISON_BREAK'))
+        stats.set_int("MPX_HEIST_SAVED_STRAND_1_L", 5)
+        stats.set_int("MPX_HEIST_SAVED_STRAND_2", tunables.get_int('ROOT_ID_HASH_THE_HUMANE_LABS_RAID'))
+        stats.set_int("MPX_HEIST_SAVED_STRAND_2_L", 5)
+        stats.set_int("MPX_HEIST_SAVED_STRAND_3", tunables.get_int('ROOT_ID_HASH_SERIES_A_FUNDING'))
+        stats.set_int("MPX_HEIST_SAVED_STRAND_3_L", 5)
+        stats.set_int("MPX_HEIST_SAVED_STRAND_4", tunables.get_int('ROOT_ID_HASH_THE_PACIFIC_STANDARD_JOB'))
+        stats.set_int("MPX_HEIST_SAVED_STRAND_4_L", 5)
         for i = 0, 2 do --Unlock all daily rewards.
-            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5568)) + 681 + 4242 +  (1 + (i * 3)))
+            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
         end
         globals.set_int(objectives_state_global, 1)
+        globals.set_int(weekly_words_global + (1 + (0 * 6)) + 1, globals.get_int(weekly_words_global + (1 + (0 * 6)) + 2)) --Unlock Weekly Objective
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
 end)
