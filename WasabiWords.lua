@@ -472,11 +472,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_SCRIPT_INCREASE_SHO', 100)
         stats.set_int('MPX_AWD_DANCE_TO_SOLOMUN', 360)
         stats.set_int('NIGHTCLUB_HOTSPOT_TIME_MS', 3600000)
-        stats.set_int('MPX_LIFETIME_BUY_COMPLETE', 1001)
-        stats.set_int('MPX_LIFETIME_BUY_UNDERTAKEN', 1001)
-        stats.set_int('MPX_LIFETIME_SELL_COMPLETE', 1003)
-        stats.set_int('MPX_LIFETIME_SELL_UNDERTAKEN', 1003)
-        stats.set_int('LIFETIME_CONTRA_EARNINGS', 2000000)
         stats.set_int('MPX_CASINO_DECORATION_GIFT_1', -1);
         stats.set_bool('MPX_COMPLETE_H4_F_USING_VETIR', true);
         stats.set_bool('MPX_COMPLETE_H4_F_USING_LONGFIN', true);
@@ -584,6 +579,48 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_HEIST_SAVED_STRAND_3_L", 5)
         stats.set_int("MPX_HEIST_SAVED_STRAND_4", tunables.get_int('ROOT_ID_HASH_THE_PACIFIC_STANDARD_JOB'))
         stats.set_int("MPX_HEIST_SAVED_STRAND_4_L", 5)
+        stats.set_int("MPX_LIFETIME_BUY_COMPLETE", 1025)
+        stats.set_int("MPX_LIFETIME_BUY_UNDERTAKEN", 1025)
+        stats.set_int("MPX_LIFETIME_SELL_COMPLETE", 1025)
+        stats.set_int("MPX_LIFETIME_SELL_UNDERTAKEN", 1025)
+        stats.set_int("MPX_LIFETIME_CONTRA_EARNINGS", 25000000) --Contraband Earnings
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET1", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA1", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET1", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA1", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET2", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA2", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET2", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA2", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET3", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA3", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET3", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA3", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET4", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA4", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET4", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA4", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET5", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA5", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET5", 1025)
+        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA5", 1025)
+        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS0", 25000000)
+        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS1", 25000000)
+        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS2", 25000000)
+        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS3", 25000000)
+        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS4", 25000000)
+        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET6", 10) --Allow buying of Stank Breath acid name.
+        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET6", 10) --Allow buying of Squatch Bait acid  name.
+        stats.set_packed_stat_int(41241, 5) --Allow buying of Chair Shot acid name.
+        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS6", 1000000) --Allow buying of Fck Your Sleep acid name.
+        stats.set_packed_stat_int(7666, 25) --Fill CEO office with money
+        unlock_packed_bools(7553, 7594) --Fill CEO office with junk
+        stats.set_packed_stat_int(9357, 4) --Fill Clubhouse with money
+        unlock_packed_bools(9400, 9414) --Fill Clubhouse with junk
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
