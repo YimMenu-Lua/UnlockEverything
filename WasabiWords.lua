@@ -563,6 +563,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_GANGOPS_FM_MISSION_PROG", -1)
         stats.set_int("MPX_GANGOPS_FM_BITSET_MISS0", -1)
         stats.set_bool("MPX_UNLOCKED_MESSAGE_FLEECA", true)
+        stats.set_bool("MPX_CARMEET_PV_CHLLGE_CMPLT", true)
         --Make it think you've beat all the heists as leader.
         stats.set_int("MPX_HEIST_SAVED_STRAND_0", tunables.get_int('ROOT_ID_HASH_THE_FLECCA_JOB'))
         stats.set_int("MPX_HEIST_SAVED_STRAND_0_L", 5)
