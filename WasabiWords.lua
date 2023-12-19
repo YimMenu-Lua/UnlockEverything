@@ -164,11 +164,12 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(41996, 41996) --??? T-Shirt
         unlock_packed_bools(42054, 42054) --Strapz Bandana
         unlock_packed_bools(42063, 42063) --The LS Panic
-        unlock_packed_bools(42068, 42069) --Snowman Finish for Combat Pistol, Santa's Helper Finish for Heavy Sniper
+        unlock_packed_bools(42068, 42069) --Snowman Finish for Combat Pistol, Santa's Helper Finish
         unlock_packed_bools(42111, 42111) --The Coast Guard
         unlock_packed_bools(42119, 42119) --Yeti Outfit
         unlock_packed_bools(42123, 42123) --riot unlocked
         unlock_packed_bools(42128, 42129) --eCola Festive Sweater, Sprunk Festive Sweater
+        unlock_packed_bools(42120, 42122) --Snowman Finish, Santa's Helper Finish, Skull Santa Finish
         unlock_packed_bools(42125, 42125) --riot trade price
         unlock_packed_bools(42130, 42146) --1 Party Hat, 2 Party Hat, 3 Party Hat, 4 Party Hat, 5 Party Hat, 6 Party Hat, 7 Party Hat, 8 Party Hat, 9 Party Hat, 10 Party Hat, 11 Party Hat, 12 Party Hat, 13 Party Hat, 14 Party Hat, 15 Party Hat, Bronze Party Outfit, Silver Party Outfit
         unlock_packed_bools(42148, 42148) --Snow Launcher
@@ -239,7 +240,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_packed_stat_int(22058, 20) --Gold Business Battle Trophy (Nightclub)
         stats.set_packed_stat_int(22063, 20) --Dinka Go Go Monkey Blista
         stats.set_packed_stat_int(41237, 10) --Taxi Livery
-        stats.set_packed_stat_int(42122, 5) --Skull Santa Finish for Special Carbine
         stats.set_int('MPPLY_CREW_NO_HEISTS_0', 2)
         stats.set_int('MPPLY_CREW_NO_HEISTS_1', 5)
         stats.set_int('MPPLY_CREW_NO_HEISTS_2', 5)
@@ -652,6 +652,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(7553, 7594) --Fill CEO office with junk
         stats.set_packed_stat_int(9357, 4) --Fill Clubhouse with money
         unlock_packed_bools(9400, 9414) --Fill Clubhouse with junk
+        stats.set_int("MPX_XMAS2023_ADV_MODE_WINS", 6) --Unlock Christmas 2023 liveries.
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
