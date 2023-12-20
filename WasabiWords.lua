@@ -166,10 +166,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(42063, 42063) --The LS Panic
         unlock_packed_bools(42068, 42069) --Snowman Finish for Combat Pistol, Santa's Helper Finish
         unlock_packed_bools(42111, 42111) --The Coast Guard
-        unlock_packed_bools(42119, 42119) --Yeti Outfit
-        unlock_packed_bools(42123, 42123) --riot unlocked
+        unlock_packed_bools(42119, 42123) --Yeti Outfit, Snowman Finish, Santa's Helper Finish, Skull Santa Finish, riot unlocked
         unlock_packed_bools(42128, 42129) --eCola Festive Sweater, Sprunk Festive Sweater
-        unlock_packed_bools(42120, 42122) --Snowman Finish, Santa's Helper Finish, Skull Santa Finish
         unlock_packed_bools(42125, 42125) --riot trade price
         unlock_packed_bools(42130, 42146) --1 Party Hat, 2 Party Hat, 3 Party Hat, 4 Party Hat, 5 Party Hat, 6 Party Hat, 7 Party Hat, 8 Party Hat, 9 Party Hat, 10 Party Hat, 11 Party Hat, 12 Party Hat, 13 Party Hat, 14 Party Hat, 15 Party Hat, Bronze Party Outfit, Silver Party Outfit
         unlock_packed_bools(42148, 42148) --Snow Launcher
