@@ -651,6 +651,9 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_packed_stat_int(9357, 4) --Fill Clubhouse with money
         unlock_packed_bools(9400, 9414) --Fill Clubhouse with junk
         stats.set_int("MPX_XMAS2023_ADV_MODE_WINS", 6) --Unlock Christmas 2023 liveries.
+        stats.set_int("MPX_FIXER_GENERAL_BS", -8577) -- Trade price for champion/baller7
+        stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Compelete all The Contract missions.
+        stats.set_int("MPX_FIXER_COUNT", 20) -- Trade price for granger2/deity/patriot3/jubilee
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
