@@ -574,8 +574,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPPLY_HEISTTEAMPROGRESSBITSET", -1)
         stats.set_int("MPX_AT_FLOW_VEHICLE_BS", -1) -- Trade price for dune4/dune5/wastelander/blazer5/phantom2/voltic2/technical2/boxville5/ruiner2
         stats.set_int("MPX_LFETIME_HANGAR_BUY_COMPLET", 50) -- Trade price for microlight/rogue/alphaz1/havok/starling/molotok/tula/bombushka/howard/mogul/pyro/seabreeze/nokota/hunter
-        stats.set_int("MPX_SALV23_GEN_BS", -1) -- police4 trade price
-        stats.set_int("MPX_SALV23_INST_PROG", -1) -- polgauntlet trade price
+        stats.set_int("MPX_SALV23_GEN_BS", -1) -- polgauntlet trade price
         stats.set_int("MPX_SALV23_SCOPE_BS", -1) -- police5 trade price
         stats.set_int("MPX_MOST_TIME_ON_3_PLUS_STARS", 300000) -- police4 trade price
         stats.set_int("MPX_LOWRIDER_FLOW_COMPLETE", 1)
