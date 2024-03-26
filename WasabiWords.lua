@@ -27,7 +27,7 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         unlock_packed_bools(3765, 3769) -- The Fleeca Job, The Prison Break, The Humane Labs Raid, Series A Funding, The Pacific Standard Job (Elite Challenges)
         unlock_packed_bools(3770, 3781) -- Death Defying T-Shirt, For Hire T-Shirt, Gimme That T-Shirt, Asshole T-Shirt, Can't Touch This T-Shirt, Decorated T-Shirt, Psycho Killer T-Shirt, One Man Army T-Shirt, Shot Caller T-Shirt, Showroom T-Shirt, Elite Challenge T-Shirt, Elite Lousy T-Shirt
         unlock_packed_bools(3783, 3802) -- Fake Dix White T-Shirt, Fake Dix Gold T-Shirt, Fake Didier Sachs T-Shirt, Fake Enema T-Shirt, Fake Le Chien No2 T-Shirt, Fake Le Chien Crew T-Shirt, Fake Santo Capra T-Shirt, Fake Vapid T-Shirt, Fake Perseus T-Shirt, Fake Sessanta Nove T-Shirt, Vinewood Zombie, Meltdown, I Married My Dad, Die Already 4, The Shoulder Of Orion II, Nelson In Naples, The Many Wives of Alfredo Smith, An American Divorce, The Loneliest Robot, Capolavoro
-        unlock_packed_bools(4247, 4269) -- Magnetics Script Hat, Magnetics Block Hat, Low Santos Hat, Boars Hat, Benny's Hat, Westside Hat, Eastside Hat, Strawberry Hat, S.A. Hat, Davis Hat, Vinewood Zombie, Knife After Dark, The Simian, Zombie Liberals in the Midwest, Twilight Knife, Butchery and other Hobbies, Cheerleader Massacre 3, Cannibal Clown, Hot Serial Killer Stepmom, Splatter and Shot, Meathook for Mommy, Psycho Swingers, Vampires on the Beach
+        unlock_packed_bools(4247, 4269) -- Magnetics Script Fitted Cap, Magnetics Block Fitted Cap, Low Santos Fitted Cap, Boars Fitted Cap, Benny's Fitted Cap, Westside Fitted Cap, Eastside Fitted Cap, Strawberry Fitted Cap, Black SA Fitted Cap, Davis Fitted Cap, Vinewood Zombie, Knife After Dark, The Simian, Zombie Liberals in the Midwest, Twilight Knife, Butchery and other Hobbies, Cheerleader Massacre 3, Cannibal Clown, Hot Serial Killer Stepmom, Splatter and Shot, Meathook for Mommy, Psycho Swingers, Vampires on the Beach
         unlock_packed_bools(4300, 4327) -- Brown Corpse Bride Bobblehead, White Corpse Bride Bobblehead, Pink Corpse Bride Bobblehead, White Mask Slasher Bobblehead, Red Mask Slasher Bobblehead, Yellow Mask Slasher Bobblehead, Blue Zombie Bobblehead, Green Zombie Bobblehead, Pale Zombie Bobblehead, Possessed Urchin Bobblehead, Demonic Urchin Bobblehead, Gruesome Urchin Bobblehead, Tuxedo Frank Bobblehead, Purple Suit Frank Bobblehead, Stripped Suit Frank Bobblehead, Black Mummy Bobblehead, White Mummy Bobblehead, Brown Mummy Bobblehead, Pale Werewolf Bobblehead, Dark Werewolf Bobblehead, Gray Werewolf Bobblehead, Fleshy Vampire Bobblehead, Bloody Vampire Bobblehead, B&W Vampire Bobblehead, Halloween Loop 1, Halloween Loop 2, Franken Stange, Lurcher
         unlock_packed_bools(4333, 4335) -- Nice Cap, Naughty Cap, Abominable Snowman (Mask)
         unlock_packed_bools(7467, 7495) -- Accountant T-Shirt, Bahama Mamas, Drone T-Shirt, Grotti T-Shirt, Golf T-Shirt, Maisonette T-Shirt, Manopause T-Shirt, Marlowe T-Shirt, Meltdown T-Shirt, Pacific Bluffs T-Shirt, Prolaps T-Shirt, Tennis T-Shirt, Toe Shoes T-Shirt, Crest T-Shirt, Vanilla Unicorn T-Shirt, Pastel Blue Pajamas, Pastel Yellow Pajamas, Pastel Pink Pajamas, Pastel Green Pajamas, Vibrant Check Pajamas, Blue Check Pajamas, Red Swirl Motif Pajamas, White Graphic Pajamas, Blue Swirl Pajamas, Yellow Swirl Pajamas, Red Swirl Pajamas, Navy Pinstripe Pajamas, Bold Pinstripe Pajamas, Orange Pinstripe Pajamas
@@ -44,15 +44,15 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         unlock_packed_bools(15447, 15474) -- Oppressor Missiles, Fractal Livery Set, Digital Livery Set, Geometric Livery Set, Nature Reserve Livery, Naval Battle Livery, Anti-Aircraft Trailer Dual 20mm Flak, Anti-Aircraft Trailer Homing Missile Battery, Mobile Operations Center Rear Turrets, Incendiary Rounds, Hollow Point Rounds, Armor Piercing Rounds, Full Metal Jacket Rounds, Explosive Rounds, Pistol Mk II Mounted Scope, Pistol Mk II Compensator, SMG Mk II Holographic Sight, SMG Mk II Heavy Barrel, Heavy Sniper Mk II Night Vision Scope, Heavy Sniper Mk II Thermal Scope, Heavy Sniper Mk II Heavy Barrel, Combat MG Mk II Holographic Sight, Combat MG Mk II Heavy Barrel, Assault Rifle Mk II Holographic Sight, Assault Rifle Mk II Heavy Barrel, Carbine Rifle Mk II Holographic Sight, Carbine Rifle Mk II Heavy Barrel, Proximity Mines
         unlock_packed_bools(15491, 15499) -- Weaponized Tampa Heavy Chassis Armor, Brushstroke Camo Mk II Weapon Livery, Skull Mk II Weapon Livery, Sessanta Nove Mk II Weapon Livery, Perseus Mk II Weapon Livery, Leopard Mk II Weapon Livery, Zebra Mk II Weapon Livery, Geometric Mk II Weapon Livery, Boom! Mk II Weapon Livery
         unlock_packed_bools(15552, 15560) -- Bronze Greatest Dancer Trophy, Bronze Number One Nightclub Trophy, Bronze Battler Trophy, Silver Greatest Dancer Trophy, Silver Number One Nightclub Trophy, Silver Battler Trophy, Gold Greatest Dancer Trophy, Gold Number One Nightclub Trophy, Gold Battler Trophy
-        unlock_packed_bools(18099, 18099) -- The Forest
+        unlock_packed_bools(18099, 18099) -- The Forest (Outfit)
         unlock_packed_bools(18116, 18118) -- The Data Breaches, The Bogdan Problem, The Doomsday Scenario (Elite Challenges)
         unlock_packed_bools(18121, 18125) -- Green Wireframe Bodysuit, Orange Wireframe Bodysuit, Blue Wireframe Bodysuit, Pink Wireframe Bodysuit, Yellow Wireframe Bodysuit
-        unlock_packed_bools(18134, 18137) -- Hideous Krampus Mask, Fearsome Krampus Mask, Odious Krampus Mask, Heinous Krampus Mask
+        unlock_packed_bools(18134, 18137) -- Hideous Krampus (Mask), Fearsome Krampus (Mask), Odious Krampus (Mask), Heinous Krampus (Mask)
         unlock_packed_bools(22124, 22132) -- Maisonette Los Santos T-Shirt, Studio Los Santos T-Shirt, Galaxy T-Shirt, Gefängnis T-Shirt, Omega T-Shirt, Technologie T-Shirt, Paradise T-Shirt, The Palace T-Shirt, Tony's Fun House T-Shirt
         unlock_packed_bools(22137, 22139) -- Nightclub Hotspot Trophy
         unlock_packed_bools(24963, 25000) -- Apocalypse Cerberus, Future Shock Cerberus, Apocalypse Brutus, Nightmare Cerberus, Apocalypse ZR380, Future Shock Brutus, Impaler, Bolt Burger Hunger T-Shirt, Apocalypse Sasquatch - Livery set, Rat-Truck, Glendale, Slamvan, Dominator, Issi Classic, Spacesuit Alien T-Shirt set, Gargoyle, Future Shock Deathbike - Light Armor w/ Shield, Blue Lights, Electric Blue Lights, Mint Green Lights, Lime Green Lights, Yellow Lights, Golden Shower Lights, Orange Lights, Red Lights, Pony Pink Lights, Hot Pink Lights, Purple Lights, Blacklight Lights, Taxi Custom, Dozer, Clown Van, Trashmaster, Barracks Semi, Mixer, Space Docker, Tractor, Nebula Bodysuit set
         unlock_packed_bools(25002, 25002) -- Up-n-Atomizer
-        unlock_packed_bools(25005, 25006) -- Epsilon Robes, Kifflom T-Shirt
+        unlock_packed_bools(25005, 25006) -- Epsilon Robes (Outfit), Kifflom T-Shirt
         unlock_packed_bools(25008, 25009) -- The Rookie (Outfit)
         unlock_packed_bools(25018, 25099) -- Black & White Bones Festive Sweater, Slasher Festive Sweater, Black & Red Bones Festive Sweater, Red Bones Festive Sweater, Burger Shot Festive Sweater, Red Bleeder Festive Sweater, Blue Bleeder Festive Sweater, Blue Cluckin' Festive Sweater, Green Cluckin' Festive Sweater, Blue Slaying Festive Sweater, Green Slaying Festive Sweater, Hail Santa Festive Sweater, Merry Sprunkmas Festive Sweater, Ice Cold Sprunk Festive Sweater, Albany T-Shirt, Albany Vintage T-Shirt, Annis T-Shirt, Benefactor T-Shirt, BF T-Shirt, Bollokan T-Shirt, Bravado T-Shirt, Brute T-Shirt, Buckingham T-Shirt, Canis T-Shirt, Chariot T-Shirt, Cheval T-Shirt, Classique T-Shirt, Coil T-Shirt, Declasse T-Shirt, Dewbauchee T-Shirt, Dilettante T-Shirt, Dinka T-Shirt, Dundreary T-Shirt, Emperor T-Shirt, Enus T-Shirt, Fathom T-Shirt, Gallivanter T-Shirt, Grotti T-Shirt, Hijak T-Shirt, HVY T-Shirt, Imponte T-Shirt, Invetero T-Shirt, Jobuilt T-Shirt, Karin T-Shirt, Lampadati T-Shirt, Maibatsu T-Shirt, Mamba T-Shirt, Mammoth T-Shirt, MTL T-Shirt, Obey T-Shirt, Ocelot T-Shirt, Overflod T-Shirt, Pegassi T-Shirt, Pfister T-Shirt, Progen T-Shirt, Rune T-Shirt, Schyster T-Shirt, Shitzu T-Shirt, Truffade T-Shirt, Ubermacht T-Shirt, Vapid T-Shirt, Vulcar T-Shirt, Weeny T-Shirt, Willard T-Shirt, Albany Nostalgia T-Shirt, Albany USA T-Shirt, Albany Dealership T-Shirt, Annis JPN T-Shirt, BF Surfer T-Shirt, Bollokan Prairie T-Shirt, Bravado Stylized T-Shirt, Brute Impregnable T-Shirt, Brute Heavy Duty T-Shirt, Buckingham Luxe T-Shirt, Canis USA T-Shirt, Canis American Legend T-Shirt, Canis Wolf T-Shirt, Cheval Marshall T-Shirt, Coil USA T-Shirt, Coil Raiden T-Shirt, Declasse Logo T-Shirt, Declasse Girl T-Shirt
         unlock_packed_bools(25101, 25109) -- Nightmare Brutus, Apocalypse Scarab, Future Shock Scarab, Nightmare Scarab, Future Shock ZR380, Nightmare ZR380, Apocalypse Imperator, Future Shock Imperator, Nightmare Imperator
@@ -67,9 +67,9 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         unlock_packed_bools(26811, 26964) -- Action Figures, Playing Cards
         unlock_packed_bools(28099, 28148) -- Signal Jammers
         unlock_packed_bools(28222, 28222) -- Pixtro and Akedo T-Shirts
-        unlock_packed_bools(26968, 27088) -- Impotent Rage Outfit, High Roller, Tiger Scuba, Sprunk Racing Suit, Neon Bodysuit, Extreme Strike Vest, The Chimera (Outfit), White Racing Suit, The Reconnaissance (Outfit), Blue Jock Cranley Suit, Italian Biker Suit, The Hazard (Outfit), Mid Strike Vest, Splinter Gorka Suit, The Gunfighter (Outfit), Black Plate Carrier*, Hunter Leather Fur Jacket, Chamois Plate Carrier*, Black Heavy Utility Vest, The Puff (Outfit), Ox Blood Patched Cut, Color Geo PRB Leather, Blue Tactical Blouson, Orange Big Cat*, Color Geo Sweater, Vivid Gradient Puffer, Color Diamond Sweater, Classic SN Print Sweater, Power Motocross, The Buzz (Outfit), Pegassi Racing Jacket, Woodland Camo Parka, Le Chien Print Sweater, The Pincer (Outfit), Vibrant Gradient Shortsleeve, Urban Gradient Shortsleeve, White Chevron SC Track, Slalom Motocross, Blue Savanna Shortsleeve, Green Didier Sachs Field, Candy Motocross, Tutti Frutti Pattern Sweater, The Vespucci (Outfit), Contrast Camo Service Shirt, Tropical Pattern Sweater, Black Service Shirt, SecuroServ 1 (Outfit), Black Sports Blagueurs Hoodie, Gold Shiny T-Shirt, OJ Shortsleeve, Primary Squash Hoodie, Purple Camo Bigness Hoodie, Bold Abstract Bigness Hoodie, Pink SN Hoodie, Red Boating Blazer, Multicolor Leaves Shortsleeve, Neon Leaves Güffy Hoodie, Black Dotted Shortsleeve, Drive Motocross, Red Patterned Shortsleeve, Steel Horse Satin Jacket, Orange Squash Hoodie, Regal Loose Shirt, White Güffy Hoodie, Stealth Utility Vest, Red Floral Sweater, Black & Red Bigness Jersey, The Slick (Outfit), Splat Squash Sweater, Tan Hooded Jacket, Brushstroke Combat Shirt, White & Red Bigness Jersey, Black Combat Top, Lime Longline Hoodie, Red Bold Check, Bold Camo Sand Castle Sweater, Red Combat Shirt, Red Mist XI Dark, Cyan Manor Sweater, Flecktarn Sleeveless Shirt, Forest Camo Battle Vest, LS Jardineros Dark, Liberty Cocks Dark, Angelica T-Shirt, Hinterland Ship Sweater, Wine Sleeveless Shirt, Cobble Sleeveless, Black Dense Logo Sweater*, White Flying Bravo Hoodie, Cat T-Shirt*, Color Geo T-Shirt, Bold Abstract Bigness T-Shirt, Neon Leaves Güffy T-Shirt, Black Baggy Hoodie, White Manor Zigzag T-Shirt, Double P Baseball Shirt, Aqua Camo Rolled Tee, Dark Woodland T-Shirt, White Bigness T-Shirt, Black No Retreat Tank, White Benny's T-Shirt, Red Smuggler Tank, Angels of Death Vivid Tee, Blue Hit & Run Tank, Waves T-Shirt*, Beige Turtleneck, Hinterland Nugget T-Shirt, Mustard Güffy Tank, Nagasaki White and Red Hoodie, Grotti Tee, Western Logo Black Tee, Butchery and other Hobbies, Black Ammu-Nation Hoodie*, Fake Santo Capra T-Shirt, Death Defying T-Shirt, Bahama Mamas, Showroom T-Shirt, LS UR Tee, J Lager Beer Hat, Unicorn, Gingerbread
+        unlock_packed_bools(26968, 27088) -- The Impotent Rage (Outfit), The High Roller (Outfit), Tiger Scuba, Sprunk Racing Suit, Neon Bodysuit, Extreme Strike Vest, The Chimera (Outfit), White Racing Suit, The Reconnaissance (Outfit), Blue Jock Cranley Suit, Italian Biker Suit, The Hazard (Outfit), Mid Strike Vest, Splinter Gorka Suit, The Gunfighter (Outfit), Black Plate Carrier, Hunter Leather Fur Jacket, Chamois Plate Carrier, Black Heavy Utility Vest, The Puff (Outfit), Ox Blood Patched Cut, Color Geo PRB Leather, Blue Tactical Blouson, Orange Big Cat, Color Geo Sweater, Vivid Gradient Puffer, Color Diamond Sweater, Classic SN Print Sweater, Power Motocross, The Buzz (Outfit), Pegassi Racing Jacket, Woodland Camo Parka, Le Chien Print Sweater, The Pincer (Outfit), Vibrant Gradient Shortsleeve, Urban Gradient Shortsleeve, White Chevron SC Track, Slalom Motocross, Blue Savanna Shortsleeve, Green Didier Sachs Field, Candy Motocross, Tutti Frutti Pattern Sweater, The Vespucci (Outfit), Contrast Camo Service Shirt, Tropical Pattern Sweater, Black Service Shirt, SecuroServ 1 (Outfit), Black Sports Blagueurs Hoodie, Gold Shiny T-Shirt, OJ Shortsleeve, Primary Squash Hoodie, Purple Camo Bigness Hoodie, Bold Abstract Bigness Hoodie, Pink SN Hoodie, Red Boating Blazer, Multicolor Leaves Shortsleeve, Neon Leaves Güffy Hoodie, Black Dotted Shortsleeve, Drive Motocross, Red Patterned Shortsleeve, Steel Horse Satin Jacket, Orange Squash Hoodie, Regal Loose Shirt, White Güffy Hoodie, Stealth Utility Vest, Red Floral Sweater, Black & Red Bigness Jersey, The Slick (Outfit), Splat Squash Sweater, Tan Hooded Jacket, Brushstroke Combat Shirt, White & Red Bigness Jersey, Black Combat Top, Lime Longline Hoodie, Red Bold Check, Bold Camo Sand Castle Sweater, Red Combat Shirt, Red Mist XI Dark, Cyan Manor Sweater, Flecktarn Sleeveless Shirt, Forest Camo Battle Vest, LS Jardineros Dark, Liberty Cocks Dark, Angelica T-Shirt, Hinterland Ship Sweater, Wine Sleeveless Shirt, Cobble Sleeveless, Black Dense Logo Sweater, White Flying Bravo Hoodie, Cat T-Shirt, Color Geo T-Shirt, Bold Abstract Bigness T-Shirt, Neon Leaves Güffy T-Shirt, Black Baggy Hoodie, White Manor Zigzag T-Shirt, Double P Baseball Shirt, Aqua Camo Rolled Tee, Dark Woodland T-Shirt, White Bigness T-Shirt, Black No Retreat Tank, White Benny's T-Shirt, Red Smuggler Tank, Angels of Death Vivid Tee, Blue Hit & Run Tank, Waves T-Shirt, Beige Turtleneck, Hinterland Nugget T-Shirt, Mustard Güffy Tank, Nagasaki White and Red Hoodie, Grotti Tee, Western Logo Black Tee, Butchery and other Hobbies, Black Ammu-Nation Hoodie, Fake Santo Capra T-Shirt, Death Defying T-Shirt, Bahama Mamas, Showroom T-Shirt, LS UR Tee, J Lager Beer Hat, Unicorn (Mask), Gingerbread (Mask)
         unlock_packed_bools(27109, 27115) -- The Diamond Classic T-Shirt, The Diamond Vintage T-Shirt, Red The Diamond LS T-Shirt, Blue The Diamond Resort LS T-Shirt, Red The Diamond Resort T-Shirt, Blue D Casino T-Shirt, Red The Diamond Classic T-Shirt
-        unlock_packed_bools(27120, 27145) -- White The Diamond Hoodie, Black The Diamond Hoodie, Ash The Diamond Hoodie, Gray The Diamond Hoodie, Red The Diamond Hoodie, Orange The Diamond Hoodie, Blue The Diamond Hoodie, Black The Diamond Silk Robe, White The Diamond Cap, Black The Diamond Cap, White LS Diamond Cap, Black LS Diamond Cap, Red The Diamond Cap, Orange The Diamond Cap, Blue LS Diamond Cap, Green The Diamond Cap, Orange LS Diamond Cap, Purple The Diamond Cap, Pink LS Diamond Cap, White The Diamond LS Tee*, Black The Diamond LS Tee, Black The Diamond Resort LS Tee, White The Diamond Resort Tee, Black The Diamond Resort Tee, Black LS Diamond Tee, Black D Casino Tee
+        unlock_packed_bools(27120, 27145) -- White The Diamond Hoodie, Black The Diamond Hoodie, Ash The Diamond Hoodie, Gray The Diamond Hoodie, Red The Diamond Hoodie, Orange The Diamond Hoodie, Blue The Diamond Hoodie, Black The Diamond Silk Robe, White The Diamond Cap, Black The Diamond Cap, White LS Diamond Cap, Black LS Diamond Cap, Red The Diamond Cap, Orange The Diamond Cap, Blue LS Diamond Cap, Green The Diamond Cap, Orange LS Diamond Cap, Purple The Diamond Cap, Pink LS Diamond Cap, White The Diamond LS Tee, Black The Diamond LS Tee, Black The Diamond Resort LS Tee, White The Diamond Resort Tee, Black The Diamond Resort Tee, Black LS Diamond Tee, Black D Casino Tee
         unlock_packed_bools(27184, 27213) -- Invade and Persuade Enemies T-Shirt, Invade and Persuade Oil T-Shirt, Invade and Persuade Tour T-Shirt, Invade and Persuade Green T-Shirt, Invade and Persuade RON T-Shirt, Street Crimes Hoods T-Shirt, Street Crimes Punks T-Shirt, Street Crimes Yokels T-Shirt, Street Crimes Bikers T-Shirt, Street Crimes Action T-Shirt, Street Crimes Boxart T-Shirt, Street Crimes Logo T-Shirt, Claim What's Yours T-Shirt, Choose Your Side T-Shirt, Street Crimes Color Gangs T-Shirt, Street Crimes Red Gangs T-Shirt, White Street Crimes Icons T-Shirt, Black Street Crimes Icons T-Shirt, Invade and Persuade Logo T-Shirt, Mission I T-Shirt, Mission II T-Shirt, Mission IV T-Shirt, Mission III T-Shirt, Invade and Persuade Boxart T-Shirt, Invade and Persuade Invader T-Shirt, Invade and Persuade Suck T-Shirt, Invade and Persuade Jets T-Shirt, Invade and Persuade Gold T-Shirt, Invade and Persuade Hero T-Shirt, Invade and Persuade Barrels T-Shirt
         unlock_packed_bools(27247, 27247) -- Madam Nazar (Arcade Trophy)
         unlock_packed_bools(28158, 28158) -- Navy Revolver
@@ -81,7 +81,7 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         unlock_packed_bools(28230, 28249) -- FIB Suits, Scubba Gear, Gruppe Sechs Gear, Bugstars Uniforms, Maintenance Outfit, Yung Ancestors Outfit, Firefighter Outfit, Orderly Armor Outfit, Upscale Armor Outfit, Evening Armor Outfit, Reinforced: Padded Combat Outfit, Reinforced: Bulk Combat Outfit, Reinforced: Compact Combat Outfit, Balaclava Crook Outfit, Classic Crook Outfit, High-end Crook Outfit, Infiltration: Upgraded Tech Outfit, Infiltration: Advanced Tech Outfit, Infiltration: Modernized Tech Outfit, Degenatron Glitch T-Shirt
         unlock_packed_bools(28254, 28255) -- Get Metal T-Shirt / Axe of Fury T-Shirt, 11 11 T-Shirt / Axe of Fury T-Shirt
         unlock_packed_bools(30230, 30251) -- Movie Props, Space Interloper (Outfit)
-        unlock_packed_bools(30254, 30295) -- King Of QUB3D T-Shirt, Qubism T-Shirt, God Of QUB3D T-Shirt, QUB3D Boxart T-Shirt, Qub3d Qub3s T-Shirt, Yacht Captain Outfit, BCTR Aged T-Shirt, BCTR T-Shirt, Cultstoppers Aged T-Shirt, Cultstoppers T-Shirt, Daily Globe Aged T-Shirt, Daily Globe T-Shirt, Eyefind Aged T-Shirt, Eyefind T-Shirt, Facade Aged T-Shirt, Facade T-Shirt, Fruit Aged T-Shirt, Fruit T-Shirt, LSHH Aged T-Shirt, LSHH T-Shirt, MyRoom Aged T-Shirt, MyRoom T-Shirt, Rebel Aged T-Shirt, Rebel T-Shirt, Six Figure Aged T-Shirt, Six Figure T-Shirt, Trash Or Treasure Aged T-Shirt, Trash Or Treasure T-Shirt, Tw@ Logo Aged T-Shirt, Tw@ Logo T-Shirt, Vapers Den Aged T-Shirt, Vapers Den T-Shirt, WingIt Aged T-Shirt, WingIt T-Shirt, ZiT Aged T-Shirt, ZiT T-Shirt, Green Dot Tech Mask, Orange Dot Tech Mask, Blue Dot Tech Mask, Pink Dot Tech Mask, Lemon Sports Track Pants, Lemon Sports Track Top
+        unlock_packed_bools(30254, 30295) -- King Of QUB3D T-Shirt, Qubism T-Shirt, God Of QUB3D T-Shirt, QUB3D Boxart T-Shirt, Qub3d Qub3s T-Shirt, Yacht Captain (Outfit), BCTR Aged T-Shirt, BCTR T-Shirt, Cultstoppers Aged T-Shirt, Cultstoppers T-Shirt, Daily Globe Aged T-Shirt, Daily Globe T-Shirt, Eyefind Aged T-Shirt, Eyefind T-Shirt, Facade Aged T-Shirt, Facade T-Shirt, Fruit Aged T-Shirt, Fruit T-Shirt, LSHH Aged T-Shirt, LSHH T-Shirt, MyRoom Aged T-Shirt, MyRoom T-Shirt, Rebel Aged T-Shirt, Rebel T-Shirt, Six Figure Aged T-Shirt, Six Figure T-Shirt, Trash Or Treasure Aged T-Shirt, Trash Or Treasure T-Shirt, Tw@ Logo Aged T-Shirt, Tw@ Logo T-Shirt, Vapers Den Aged T-Shirt, Vapers Den T-Shirt, WingIt Aged T-Shirt, WingIt T-Shirt, ZiT Aged T-Shirt, ZiT T-Shirt, Green Dot Tech Mask, Orange Dot Tech Mask, Blue Dot Tech Mask, Pink Dot Tech Mask, Lemon Sports Track Pants, Lemon Sports Track Top
         unlock_packed_bools(30524, 30557) -- Grotti Aged T-Shirt, Lampadati Aged T-Shirt, Ocelot Aged T-Shirt, Overflod Aged T-Shirt, Pegassi Aged T-Shirt, Pfister Aged T-Shirt, Vapid Aged T-Shirt, Weeny Aged T-Shirt, Blue The Diamond Resort LS Aged T-Shirt, KJAH Radio Aged T-Shirt, K-Rose Aged T-Shirt, Emotion 98.3 Aged T-Shirt, KDST Aged T-Shirt, Bounce FM Aged T-Shirt, Fake Vapid Aged T-Shirt, I Married My Dad Aged T-Shirt, ToeShoes Aged T-Shirt, Vanilla Unicorn Aged T-Shirt, Steel Horse Solid Logo Aged T-Shirt, Black Western Logo Aged T-Shirt, White Nagasaki Aged T-Shirt, Black Principe Aged T-Shirt, Noise Aged T-Shirt, Noise Rockstar Logo Aged T-Shirt, Razor Aged T-Shirt, White Rockstar Camo Aged T-Shirt, LSUR Aged T-Shirt, Rebel Radio Aged T-Shirt, Channel X Aged T-Shirt, Albany Vintage Aged T-Shirt, Benefactor Aged T-Shirt, Bravado Aged T-Shirt, Declasse Aged T-Shirt, Dinka Aged T-Shirt
         unlock_packed_bools(30563, 30693) -- Panther Varsity Jacket Closed, Panther Tour Jacket, Broker Prolaps Basketball Top, Panic Prolaps Basketball Top, Gussét Frog T-Shirt, Warped Still Slipping T-Shirt, Yellow Still Slipping T-Shirt, Black Rockstar T-Shirt, Black Exsorbeo 720 Logo T-Shirt, Manor PRBG T-Shirt, Manor Tie-dye T-Shirt, Open Wheel Sponsor T-Shirt, Rockstar Yellow Pattern T-Shirt, Rockstar Gray Pattern T-Shirt, Rockstar Rolling T-Shirt, Santo Capra Patterns Sweater, Rockstar Studio Colors Sweater, Bigness Jackal Sweater, Bigness Tie-dye Sweater, Bigness Faces Sweater, Broker Prolaps Basketball Shorts, Panic Prolaps Basketball Shorts, Exsorbeo 720 Sports Shorts, Bigness Tie-dye Sports Pants, Enus Yeti Forwards Cap, 720 Forwards Cap, Exsorbeo 720 Forwards Cap, Güffy Double Logo Forwards Cap, Rockstar Forwards Cap, Blue Bangles (L), Red Bangles (L), Pink Bangles (L), Yellow Bangles (L), Orange Bangles (L), Green Bangles (L), Red & Blue Bangles (L), Yellow & Orange Bangles (L), Green & Pink Bangles (L), Rainbow Bangles (L), Sunset Bangles (L), Tropical Bangles (L), Blue & Pink Glow Shades, Red Glow Shades, Orange Glow Shades, Yellow Glow Shades, Green Glow Shades, Blue Glow Shades, Pink Glow Shades, Blue & Magenta Glow Shades, Purple & Yellow Glow Shades, Blue & Yellow Glow Shades, Pink & Yellow Glow Shades, Red & Yellow Glow Shades, Blue Glow Necklace, Red Glow Necklace, Pink Glow Necklace, Yellow Glow Necklace, Orange Glow Necklace, Green Glow Necklace, Festival Glow Necklace, Carnival Glow Necklace, Tropical Glow Necklace, Hot Glow Necklace, Neon Glow Necklace, Party Glow Necklace, Sunset Glow Necklace, Radiant Glow Necklace, Sunrise Glow Necklace, Session Glow Necklace, Combat Shotgun, Perico Pistol, White Keinemusik T-Shirt, Blue Keinemusik T-Shirt, Moodymann T-Shirt, Palms Trax T-Shirt, Midnight Tint Oversize Shades, Sunset Tint Oversize Shades, Black Tint Oversize Shades, Blue Tint Oversize Shades, Gold Tint Oversize Shades, Green Tint Oversize Shades, Orange Tint Oversize Shades, Red Tint Oversize Shades, Pink Tint Oversize Shades, Yellow Tint Oversize Shades, Lemon Tint Oversize Shades, Gold Rimmed Oversize Shades, White Checked Round Shades, Pink Checked Round Shades, Yellow Checked Round Shades, Red Checked Round Shades, White Round Shades, Black Round Shades, Pink Tinted Round Shades, Blue Tinted Round Shades, Green Checked Round Shades, Blue Checked Round Shades, Orange Checked Round Shades, Green Tinted Round Shades, Brown Square Shades, Yellow Square Shades, Black Square Shades, Tortoiseshell Square Shades, Green Square Shades, Red Square Shades, Pink Tinted Square Shades, Blue Tinted Square Shades, White Square Shades, Pink Square Shades, All White Square Shades, Mono Square Shades, Green Calavera Mask, Navy Calavera Mask, Cherry Calavera Mask, Orange Calavera Mask, Purple Calavera Mask, Dark Blue Calavera Mask, Lavender Calavera Mask, Yellow Calavera Mask, Pink Calavera Mask, Neon Stitch Emissive Mask, Vibrant Stitch Emissive Mask, Pink Stitch Emissive Mask, Blue Stitch Emissive Mask, Neon Skull Emissive Mask, Vibrant Skull Emissive Mask, Pink Skull Emissive Mask, Orange Skull Emissive Mask, Dark X-Ray Emissive Mask, Bright X-Ray Emissive Mask, Purple X-Ray Emissive Mask
         unlock_packed_bools(30699, 30704) -- Palms Trax LS T-Shirt, Moodymann Whatupdoe T-Shirt, Moodymann Big D T-Shirt, Keinemusik Cayo Perico T-Shirt, Still Slipping Blarneys T-Shirt, Still Slipping Friend T-Shirt
@@ -90,7 +90,7 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         unlock_packed_bools(31755, 31755) -- Auto Shop Race 'n Chase
         unlock_packed_bools(31760, 31764) -- Faces of Death T-Shirt, Straight to Video T-Shirt, Monkey See Monkey Die T-Shirt, Trained to Kill T-Shirt, The Director T-Shirt
         unlock_packed_bools(31766, 31777) -- Sprunk Forwards Cap, eCola Forwards Cap, Black Banshee T-Shirt, Blue Banshee T-Shirt, LS Customs T-Shirt, Rockstar Games Typeface T-Shirt, Wasted! T-Shirt, Baseball Bat T-Shirt, Knuckleduster T-Shirt, Rampage T-Shirt, Penitentiary Coveralls, LS Customs Coveralls
-        unlock_packed_bools(31779, 31793) -- The Ringleader (Outfit), The Knuckles (Outfit), The Breaker (Outfit), The Dealer (Outfit), Bearsy (Mask), Banshee Hoodie, eCola Varsity, Sprunk Varsity, LS Customs Varsity, LS Customs Tour Jacket, eCola Bodysuit, Sprunk Bodysuit, Sprunk Chute Bag, eCola Chute Bag, Halloween Chute Bag
+        unlock_packed_bools(31779, 31796) -- The Ringleader (Outfit), The Knuckles (Outfit), The Breaker (Outfit), The Dealer (Outfit), Bearsy (Mask), Banshee Hoodie, eCola Varsity, Sprunk Varsity, LS Customs Varsity, LS Customs Tour Jacket, eCola Bodysuit, Sprunk Bodysuit, Sprunk Chute Bag, eCola Chute Bag, Halloween Chute Bag, Sprunk Chute, eCola Chute, Halloween Chute
         unlock_packed_bools(31805, 31808) -- The Old Hand (Outfit), The Overworked (Outfit), The Longshoreman (Outfit), The Underpaid (Outfit)
         unlock_packed_bools(31810, 31824) -- Annis ZR350, Pfister Comet S2, Dinka Jester RR, Emperor Vectre, Ubermacht Cypher, Pfister Growler, Karin Calico GTF, Annis Remus, Vapid Dominator ASP, Karin Futo GTX, Dinka RT3000, Vulcar Warrener HKR, Karin Sultan RS Classic, Vapid Dominator GTT, Karin Previon
         unlock_packed_bools(31826, 31858) -- Emperor Forwards Cap / Emperor Backwards Cap, Beige Knit Sneakers, Gray Emperor Classic Hoodie, Pursuit Series (Gameplay), Cyan Check Sleeveless Puffer, Dinka SPL (Wheel Mod), Blue Hayes Retro Racing, White Emperor Motors T-Shirt, Quick Fix (Gameplay), Cyan Check Puffer, Euros - Speed Trail (Livery), Never Barcode Print Hoodie, Hayes Modern Racing, Diversion (Gameplay), Gray Leather Bomber, Futo GTX - Chokusen Dorifuto (Livery), Karin Forwards Cap / Karin Backwards Cap, Cream Knit Sneakers, Private Takeover (Gameplay), Yellow Pfister Hoodie, Retro Turbofan (Wheel Mod), Red Check Sleeveless Puffer, White Hayes Retro Racing, Setup (Gameplay), Navy Emperor Motors T-Shirt, RT3000 - Stance Andreas (Livery), Red Check Puffer, Never Triangle Print Hoodie, Wingman (Gameplay), LTD Modern Racing, Jester RR - 10 Minute Car (Livery), Green Crowex Pro Racing Suit, Mustard Tan Leather Bomber
@@ -145,11 +145,11 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         unlock_packed_bools(32295, 32311) -- Orange Goldfish, Purple Goldfish, Bronze Goldfish, Clownfish, Juvenile Gull, Sooty Gull, Black-headed Gull, Herring Gull, Brown Sea Lion, Dark Sea Lion, Spotted Sea Lion, Gray Sea Lion, Green Festive T-Shirt, Red Festive T-Shirt, Orange DJ Pooh T-Shirt, White WCC DJ Pooh T-Shirt, Blue WCC DJ Pooh T-Shirt
         unlock_packed_bools(32315, 32316) -- Navy Coveralls, Gray Coveralls, Marathon Hoodie
         unlock_packed_bools(32366, 32366) -- Declasse Draugur (Trade Price)
-        unlock_packed_bools(34372, 34375) -- Horror Pumpkin, Dinka Kanjo SJ (Trade Price), Dinka Postlude (Trade Price), White LD Organics T-Shirt
+        unlock_packed_bools(34372, 34375) -- Horror Pumpkin (Mask), Dinka Kanjo SJ (Trade Price), Dinka Postlude (Trade Price), Black LD Organics Forwards & Backwards Caps / White LD Organics Tee
         unlock_packed_bools(34378, 34411) -- Junk Energy Chute Bag, Junk Energy Chute, Pumpkin T-Shirt, Pacific Standard Varsity, Pacific Standard Sweater, Cliffford Varsity, Cliffford Hoodie, The Diamond Casino Varsity, The Diamond Strike Vest, Strickler Hat, Sinsimito Cuban Shirt, Mummy (Outfit), Manor Geo Forwards Cap, Apricot Perseus Forwards Cap, Still Slipping Tie-dye Forwards Cap, Lemon Festive Beer Hat, Bigness Hand-drawn Dome, Grimy Stitched, Pale Stitched, Gray Cracked Puppet, Blushed Cracked Puppet, Green Emissive Lady Liberty, President, Gold Beat Off Earphones, White Spiked Gauntlet (L), Manor Geo Hoodie, Pumpkin Hoodie, LS Smoking Jacket, Hand-Drawn Biker Bomber, Have You Seen Me? Sweater, Still Slipping Tie-dye T-Shirt, Manor Geo Track Pants, Apricot Perseus Track Pants, Sasquatch (Outfit)
         unlock_packed_bools(34415, 34510) -- Green Vintage Frank, Brown Vintage Frank, Gray Vintage Frank, Pale Vintage Mummy, Green Vintage Mummy, Weathered Vintage Mummy, Conquest, Death, Famine, War, Black Tech Demon, Gray Tech Demon, White Tech Demon, Green Tech Demon, Orange Tech Demon, Purple Tech Demon, Pink Tech Demon, Red Detail Tech Demon, Blue Detail Tech Demon, Yellow Detail Tech Demon, Green Detail Tech Demon, Pink Detail Tech Demon, Orange & Gray Tech Demon, Red Tech Demon, Camo Tech Demon, Aqua Camo Tech Demon, Brown Digital Tech Demon, Gold Tech Demon, Orange & Cream Tech Demon, Green & Yellow Tech Demon, Pink Floral Tech Demon, Black & Green Tech Demon, White & Red Tech Demon, Carbon Tech Demon, Carbon Teal Tech Demon, Black & White Tech Demon, Painted Tiger, Gray Painted Tiger, Gold Painted Tiger, Ornate Painted Tiger, Gray Yeti Flat Cap, Woodland Yeti Flat Cap, Green FB Flat Cap, Blue FB Flat Cap, Gray Lézard Flat Cap, Green Lézard Flat Cap, Light Plaid Lézard Flat Cap, Dark Plaid Lézard Flat Cap, White Striped Lézard Flat Cap, Red Striped Lézard Flat Cap, Brown Crevis Flat Cap, Gray Crevis Flat Cap, Black Broker Flat Cap, Burgundy Broker Flat Cap, White Beat Off Earphones, Yellow Beat Off Earphones, Salmon Beat Off Earphones, Orange Beat Off Earphones, Purple Beat Off Earphones, Pink Beat Off Earphones, Turquoise Beat Off Earphones, Blue Beat Off Earphones, Black Beat Off Earphones, Gray Beat Off Earphones, Teal Beat Off Earphones, Red Beat Off Earphones, Wild Striped Pool Sliders, Neon Striped Pool Sliders, Black SC Coin Pool Sliders, White SC Coin Pool Sliders, Black SC Pattern Pool Sliders, Pink SC Pattern Pool Sliders, Blue SC Pattern Pool Sliders, Camo Yeti Pool Sliders, Gray Camo Yeti Pool Sliders, Black Bigness Pool Sliders, Purple Bigness Pool Sliders, Camo Bigness Pool Sliders, Black Blagueurs Pool Sliders, White Blagueurs Pool Sliders, Pink Blagueurs Pool Sliders, Gray Cimicino Pool Sliders, Rouge Cimicino Pool Sliders, Navy DS Pool Sliders, Red DS Pool Sliders, Floral Güffy Pool Sliders, Green Güffy Pool Sliders, White Güffy Pool Sliders, Blue Heat Pool Sliders, Red ProLaps Pool Sliders, Black LD Organics T-Shirt, Green UFO Boxer Shorts, White UFO Boxer Shorts, Gray Believe Backwards Cap, Black Believe Backwards Cap, Glow Believe Backwards Cap
         unlock_packed_bools(34703, 34705) -- White Vintage Vampire, Dark Green Vintage Vampire, Light Green Vintage Vampire
-        unlock_packed_bools(34730, 34737) -- Green Festive Beer Hat, Red Snowflake Beer Hat, Blue Snowflake Beer Hat, Red Holly Beer Hat, Pisswasser Festive Beer Hat, Blarneys Festive Beer Hat, Red Reindeer Beer Hat, Borfmas
+        unlock_packed_bools(34730, 34737) -- Green Festive Beer Hat, Red Snowflake Beer Hat, Blue Snowflake Beer Hat, Red Holly Beer Hat, Pisswasser Festive Beer Hat, Blarneys Festive Beer Hat, Red Reindeer Beer Hat, Borfmas Beer Hat
         unlock_packed_bools(34761, 34761) -- The Gooch Outfit
         unlock_packed_bools(36630, 36654) -- Snowman
         unlock_packed_bools(36699, 36770) -- Ice Vinyl, Ice Vinyl Cut, Mustard Vinyl, Mustard Vinyl Cut, Dark Blue Vinyl, Dark Blue Vinyl Cut, Yellow SN Rooster Revere Collar, Red SC Dragon Revere Collar, Blue SC Dragon Revere Collar, Camo Roses Slab Denim, Orange Trickster Type Denim, Black VDG Cardigan, Blue DS Panthers Cardigan, Red DS Panthers Cardigan, Pink SC Baroque Cardigan, Downtown Cab Co. Revere Collar, Valentines Blazer, 420 Smoking Jacket, Yeti Year of the Rabbit T-Shirt, Gray Yeti Combat Shirt, Black Sprunk Festive, Dark Logger Festive, White Logger Festive, Green Logger Festive, Red Logger Festive, Blue Patriot Logo Festive, Black Patriot Logo Festive, Blue Patriot Festive, Red Patriot Festive, Red Pisswasser Festive, Gold Pisswasser Festive, Red Pisswasser Logo Festive, Gold Pisswasser Logo Festive, Green Pride Brew Festive, Yellow Pride Brew Festive, Yellow Holly Pride Festive, White Holly Pride Festive, Sprunk Snowflakes Festive, Broker Checkerboard T-Shirt, Yeti Ape Tucked T-Shirt, Black Bigness Ski, White Bigness Ski, Black Enema Flourish Ski, Teal Enema Flourish Ski, Magenta Enema Flourish Ski, Camo Roses Slab Forwards, Lime Leopard Slab Forwards, Red SC Dragon Embroidered, Classic DS Tiger Embroidered, Gray DS Tiger Embroidered, Black VDG Bandana Wide, Orange Trickster Type Wide, Gray Yeti Battle Pants, Broker Checkerboard Cargos, 420 Smoking Pants, Camo Roses Slab Canvas, Lime Leopard Slab Canvas, White Signs Squash Ugglies & Socks, Traditional Painted Rabbit, Twilight Painted Rabbit, Noh Painted Rabbit, Lime SC Coin Wraps, Pink SC Coin Wraps, Tan Bracelet Ensemble, Red Manor Round Brow Shades, Le Chien Whistle Necklace, Heartbreak Pendant, Rabbit, Budonk-adonk!, The Red-nosed (Outfit), The Nutcracker (Outfit), The GoPostal (Outfit)
@@ -559,111 +559,111 @@ wasabi_words:add_button("ShinyWasabi", function() -- Original script by ShinyWas
         stats.set_int('MPX_CH_ARC_CAB_LOVE_TROPHY', -1) -- The Love Professor Trophy
         stats.set_int('MPX_AWD_FACES_OF_DEATH', 50) -- Camhedz -- Faces Of Death
         stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
-        stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
-        stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
-        stats.set_int("MPX_PET_CHOP_TIME", NETWORK.GET_CLOUD_TIME_AS_INT() - 86400) -- Pet Chop Time?
-        stats.set_bool("MPX_AWD_DOGS_BEST_FRIEND", true) -- Pet Chop Time?
-        stats.set_int("MPX_AWD_CALLME", tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
-        stats.set_int("MPX_H3_VEHICLESUSED", -1) -- Trade Price for Diamond Casino Heist Finale.
-        stats.set_int("MPX_H4_H4_DJ_MISSIONS", -1) -- Trade Price for MP0_H4_H4_DJ_MISSIONS
-        stats.set_int("MPX_H4_PROGRESS", -1) -- Trade Price for Winky
-        stats.set_int("MPX_TUNER_GEN_BS", -1) -- Trade Price for Tailgater S
-        stats.set_int("MPX_FIXER_HQ_OWNED", 1) -- Trade Price for Buffalo STX
-        stats.set_int("MPX_ULP_MISSION_PROGRESS", -1) -- Trade Price for Greenwood, Conada
-        stats.set_int("MPX_SUM23_AVOP_PROGRESS", -1) -- Trade Price for Raiju
-        stats.set_int("MPX_GANGOPS_FLOW_BITSET_MISS0", -1) -- Trade Price for Deluxo, Akula, RCV, Stromberg, Chernobog, Barrage, TM-02 Khanjali, Volatol, Thruster
-        stats.set_bool("MPX_AWD_TAXISTAR", true) -- Trade Price for Taxi
-        stats.set_bool("MPPLY_AWD_HST_ORDER", true)
-        stats.set_bool("MPPLY_AWD_HST_SAME_TEAM", true)
-        stats.set_bool("MPPLY_AWD_HST_ULT_CHAL", true)
-        stats.set_int("MPPLY_HEISTFLOWORDERPROGRESS", 268435455)
-        stats.set_int("MPPLY_HEISTNODEATHPROGREITSET", 268435455)
-        stats.set_int("MPPLY_HEISTTEAMPROGRESSBITSET", 268435455)
-        stats.set_int("MPX_AT_FLOW_VEHICLE_BS", -1) -- Trade Price for Ramp Buggy, Wastelander, Blazer Aqua, Phantom Wedge, Rocket Voltic, Technical Aqua, Armored Boxville, Ruiner 2000
-        stats.set_int("MPX_LFETIME_HANGAR_BUY_COMPLET", 50) -- Trade Price for Ultralight, Rogue, Alpha-Z1, Havok, LF-22 Starling, V-65 Molotok, Tula, RM-10 Bombushka, Howard NX-25, Mogul, Pyro, Seabreeze, P-45 Nokota, FH-1 Hunter
-        stats.set_int("MPX_SALV23_GEN_BS", -1) -- Trade Price for Gauntlet Interceptor
-        stats.set_int("MPX_SALV23_SCOPE_BS", -1) -- Trade Price for Stanier LE Cruiser
-        stats.set_int("MPX_MOST_TIME_ON_3_PLUS_STARS", 300000) -- Trade Price for Unmarked Cruiser
-        stats.set_int("MPX_LOWRIDER_FLOW_COMPLETE", 1)
-        stats.set_int("MPX_AT_FLOW_MISSION_PROGRESS", 50)
-        stats.set_int("MPX_AT_FLOW_IMPEXP_NUM", 50)
-        stats.set_int("MPX_AT_FLOW_BITSET_MISSIONS0", -1)
-        stats.set_int("MPX_WVM_FLOW_MISSION_PROGRESS", 50)
-        stats.set_int("MPX_WVM_FLOW_IMPEXP_NUM", 50)
-        stats.set_int("MPX_WVM_FLOW_BITSET_MISSIONS0", -1)
-        stats.set_int("MPX_WVM_FLOW_VEHICLE_BS", -1)
-        stats.set_int("MPX_GANGOPS_FLOW_MISSION_PROG", -1)
-        stats.set_int("MPX_GANGOPS_FLOW_IMPEXP_NUM", 50)
-        stats.set_int("MPX_WAM_FLOW_VEHICLE_BS", -1)
-        stats.set_int("MPX_GANGOPS_FLOW_PASSED_BITSET", -1)
-        stats.set_int("MPX_VCM_FLOW_PROGRESS", -1)
-        stats.set_int("MPX_TUNER_FLOW_BS", -1)
-        stats.set_int("MPX_TUNER_MIS_BS", -1)
-        stats.set_int("MPX_TUNER_COMP_BS", -1)
-        stats.set_int("MPX_GANGOPS_FM_MISSION_PROG", -1)
-        stats.set_int("MPX_GANGOPS_FM_BITSET_MISS0", -1)
-        stats.set_bool("MPX_UNLOCKED_MESSAGE_FLEECA", true)
-        stats.set_bool("MPX_CARMEET_PV_CHLLGE_CMPLT", true)
-        --Make it think you've beat all the heists as leader.
-        stats.set_int("MPX_HEIST_SAVED_STRAND_0", tunables.get_int('ROOT_ID_HASH_THE_FLECCA_JOB'))
-        stats.set_int("MPX_HEIST_SAVED_STRAND_0_L", 5)
-        stats.set_int("MPX_HEIST_SAVED_STRAND_1", tunables.get_int('ROOT_ID_HASH_THE_PRISON_BREAK'))
-        stats.set_int("MPX_HEIST_SAVED_STRAND_1_L", 5)
-        stats.set_int("MPX_HEIST_SAVED_STRAND_2", tunables.get_int('ROOT_ID_HASH_THE_HUMANE_LABS_RAID'))
-        stats.set_int("MPX_HEIST_SAVED_STRAND_2_L", 5)
-        stats.set_int("MPX_HEIST_SAVED_STRAND_3", tunables.get_int('ROOT_ID_HASH_SERIES_A_FUNDING'))
-        stats.set_int("MPX_HEIST_SAVED_STRAND_3_L", 5)
-        stats.set_int("MPX_HEIST_SAVED_STRAND_4", tunables.get_int('ROOT_ID_HASH_THE_PACIFIC_STANDARD_JOB'))
-        stats.set_int("MPX_HEIST_SAVED_STRAND_4_L", 5)
-        stats.set_int("MPX_LIFETIME_BUY_COMPLETE", 1025)
-        stats.set_int("MPX_LIFETIME_BUY_UNDERTAKEN", 1025)
-        stats.set_int("MPX_LIFETIME_SELL_COMPLETE", 1025)
-        stats.set_int("MPX_LIFETIME_SELL_UNDERTAKEN", 1025)
-        stats.set_int("MPX_LIFETIME_CONTRA_EARNINGS", 25000000) -- Contraband Earnings
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET1", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA1", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET1", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA1", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET2", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA2", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET2", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA2", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET3", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA3", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET3", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA3", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET4", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA4", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET4", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA4", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET5", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_UNDERTA5", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET5", 1025)
-        stats.set_int("MPX_LFETIME_BIKER_SELL_UNDERTA5", 1025)
-        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS0", 25000000)
-        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS1", 25000000)
-        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS2", 25000000)
-        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS3", 25000000)
-        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS4", 25000000)
-        stats.set_int("MPX_LFETIME_BIKER_BUY_COMPLET6", 10) -- Allow buying of Stank Breath acid name.
-        stats.set_int("MPX_LFETIME_BIKER_SELL_COMPLET6", 10) -- Allow buying of Squatch Bait acid  name.
+        stats.set_int('MPX_XM22_FLOW', -1) -- Acid Lab Unlock
+        stats.set_int('MPX_XM22_MISSIONS', -1) -- Acid Lab Unlock
+        stats.set_int('MPX_PET_CHOP_TIME', NETWORK.GET_CLOUD_TIME_AS_INT() - 86400) -- Pet Chop Time?
+        stats.set_bool('MPX_AWD_DOGS_BEST_FRIEND', true) -- Pet Chop Time?
+        stats.set_int('MPX_AWD_CALLME', tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
+        stats.set_int('MPX_H3_VEHICLESUSED', -1) -- Trade Price for Diamond Casino Heist Finale.
+        stats.set_int('MPX_H4_H4_DJ_MISSIONS', 127) -- Trade Price for MP0_H4_H4_DJ_MISSIONS
+        stats.set_int('MPX_H4_PROGRESS', -1) -- Trade Price for Winky
+        stats.set_int('MPX_TUNER_GEN_BS', -1) -- Trade Price for Tailgater S
+        stats.set_int('MPX_FIXER_HQ_OWNED', 1) -- Trade Price for Buffalo STX
+        stats.set_int('MPX_ULP_MISSION_PROGRESS', -1) -- Trade Price for Greenwood, Conada
+        stats.set_int('MPX_SUM23_AVOP_PROGRESS', -1) -- Trade Price for F-160 Raiju
+        stats.set_int('MPX_GANGOPS_FLOW_BITSET_MISS0', -1) -- Trade Price for Deluxo, Akula, RCV, Stromberg, Chernobog, Barrage, TM-02 Khanjali, Volatol, Thruster
+        stats.set_bool('MPX_AWD_TAXISTAR', true) -- Trade Price for Taxi
+        stats.set_bool('MPPLY_AWD_HST_ORDER', true)
+        stats.set_bool('MPPLY_AWD_HST_SAME_TEAM', true)
+        stats.set_bool('MPPLY_AWD_HST_ULT_CHAL', true)
+        stats.set_int('MPPLY_HEISTFLOWORDERPROGRESS', 268435455)
+        stats.set_int('MPPLY_HEISTNODEATHPROGREITSET', 268435455)
+        stats.set_int('MPPLY_HEISTTEAMPROGRESSBITSET', 268435455)
+        stats.set_int('MPX_AT_FLOW_VEHICLE_BS', -1) -- Trade Price for Ramp Buggy, Wastelander, Blazer Aqua, Phantom Wedge, Rocket Voltic, Technical Aqua, Armored Boxville, Ruiner 2000
+        stats.set_int('MPX_LFETIME_HANGAR_BUY_COMPLET', 50) -- Trade Price for Ultralight, Rogue, Alpha-Z1, Havok, LF-22 Starling, V-65 Molotok, Tula, RM-10 Bombushka, Howard NX-25, Mogul, Pyro, Seabreeze, P-45 Nokota, FH-1 Hunter
+        stats.set_int('MPX_SALV23_GEN_BS', -1) -- Trade Price for Gauntlet Interceptor
+        stats.set_int('MPX_SALV23_SCOPE_BS', -1) -- Trade Price for Stanier LE Cruiser
+        stats.set_int('MPX_MOST_TIME_ON_3_PLUS_STARS', 300000) -- Trade Price for Unmarked Cruiser
+        stats.set_int('MPX_LOWRIDER_FLOW_COMPLETE', 1)
+        stats.set_int('MPX_AT_FLOW_MISSION_PROGRESS', 50)
+        stats.set_int('MPX_AT_FLOW_IMPEXP_NUM', 50)
+        stats.set_int('MPX_AT_FLOW_BITSET_MISSIONS0', -1)
+        stats.set_int('MPX_WVM_FLOW_MISSION_PROGRESS', 50)
+        stats.set_int('MPX_WVM_FLOW_IMPEXP_NUM', 50)
+        stats.set_int('MPX_WVM_FLOW_BITSET_MISSIONS0', -1)
+        stats.set_int('MPX_WVM_FLOW_VEHICLE_BS', -1)
+        stats.set_int('MPX_GANGOPS_FLOW_MISSION_PROG', -1)
+        stats.set_int('MPX_GANGOPS_FLOW_IMPEXP_NUM', 50)
+        stats.set_int('MPX_WAM_FLOW_VEHICLE_BS', -1)
+        stats.set_int('MPX_GANGOPS_FLOW_PASSED_BITSET', -1)
+        stats.set_int('MPX_VCM_FLOW_PROGRESS', -1)
+        stats.set_int('MPX_TUNER_FLOW_BS', -1)
+        stats.set_int('MPX_TUNER_MIS_BS', -1)
+        stats.set_int('MPX_TUNER_COMP_BS', -1)
+        stats.set_int('MPX_GANGOPS_FM_MISSION_PROG', -1)
+        stats.set_int('MPX_GANGOPS_FM_BITSET_MISS0', -1)
+        stats.set_bool('MPX_UNLOCKED_MESSAGE_FLEECA', true)
+        stats.set_bool('MPX_CARMEET_PV_CHLLGE_CMPLT', true)
+        -- Make it think you've beat all the heists as leader.
+        stats.set_int('MPX_HEIST_SAVED_STRAND_0', tunables.get_int('ROOT_ID_HASH_THE_FLECCA_JOB'))
+        stats.set_int('MPX_HEIST_SAVED_STRAND_0_L', 5)
+        stats.set_int('MPX_HEIST_SAVED_STRAND_1', tunables.get_int('ROOT_ID_HASH_THE_PRISON_BREAK'))
+        stats.set_int('MPX_HEIST_SAVED_STRAND_1_L', 5)
+        stats.set_int('MPX_HEIST_SAVED_STRAND_2', tunables.get_int('ROOT_ID_HASH_THE_HUMANE_LABS_RAID'))
+        stats.set_int('MPX_HEIST_SAVED_STRAND_2_L', 5)
+        stats.set_int('MPX_HEIST_SAVED_STRAND_3', tunables.get_int('ROOT_ID_HASH_SERIES_A_FUNDING'))
+        stats.set_int('MPX_HEIST_SAVED_STRAND_3_L', 5)
+        stats.set_int('MPX_HEIST_SAVED_STRAND_4', tunables.get_int('ROOT_ID_HASH_THE_PACIFIC_STANDARD_JOB'))
+        stats.set_int('MPX_HEIST_SAVED_STRAND_4_L', 5)
+        stats.set_int('MPX_LIFETIME_BUY_COMPLETE', 1025)
+        stats.set_int('MPX_LIFETIME_BUY_UNDERTAKEN', 1025)
+        stats.set_int('MPX_LIFETIME_SELL_COMPLETE', 1025)
+        stats.set_int('MPX_LIFETIME_SELL_UNDERTAKEN', 1025)
+        stats.set_int('MPX_LIFETIME_CONTRA_EARNINGS', 25000000) -- Contraband Earnings
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_UNDERTA', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_UNDERTA', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET1', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_UNDERTA1', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET1', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_UNDERTA1', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET2', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_UNDERTA2', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET2', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_UNDERTA2', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET3', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_UNDERTA3', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET3', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_UNDERTA3', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET4', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_UNDERTA4', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET4', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_UNDERTA4', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET5', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_UNDERTA5', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET5', 1025)
+        stats.set_int('MPX_LFETIME_BIKER_SELL_UNDERTA5', 1025)
+        stats.set_int('MPX_LIFETIME_BKR_SELL_EARNINGS0', 25000000)
+        stats.set_int('MPX_LIFETIME_BKR_SELL_EARNINGS1', 25000000)
+        stats.set_int('MPX_LIFETIME_BKR_SELL_EARNINGS2', 25000000)
+        stats.set_int('MPX_LIFETIME_BKR_SELL_EARNINGS3', 25000000)
+        stats.set_int('MPX_LIFETIME_BKR_SELL_EARNINGS4', 25000000)
+        stats.set_int('MPX_LFETIME_BIKER_BUY_COMPLET6', 10) -- Allow buying of Stank Breath acid name.
+        stats.set_int('MPX_LFETIME_BIKER_SELL_COMPLET6', 10) -- Allow buying of Squatch Bait acid  name.
         stats.set_packed_stat_int(41241, 5) -- Allow buying of Chair Shot acid name.
-        stats.set_int("MPX_LIFETIME_BKR_SELL_EARNINGS6", 1000000) -- Allow buying of Fck Your Sleep acid name.
-        stats.set_packed_stat_int(7666, 25) -- Fill CEO office with money
-        unlock_packed_bools(7553, 7594) -- Fill CEO office with junk
+        stats.set_int('MPX_LIFETIME_BKR_SELL_EARNINGS6', 1000000) -- Allow buying of Fck Your Sleep acid name.
+        stats.set_packed_stat_int(7666, 25) -- Fill Office with money
+        unlock_packed_bools(7553, 7594) -- Fill Office with junk
         stats.set_packed_stat_int(9357, 4) -- Fill Clubhouse with money
         unlock_packed_bools(9400, 9414) -- Fill Clubhouse with junk
-        stats.set_int("MPX_XMAS2023_ADV_MODE_WINS", 5) -- Unlock Christmas 2023 liveries.
-        stats.set_int("MPX_FIXER_GENERAL_BS", -8577) -- Trade Price for Champion, Baller ST
-        stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Compelete all The Contract missions.
-        stats.set_int("MPX_FIXER_COUNT", 20) -- Trade Price for Granger 3600LX, Deity, Patriot Mil-Spec, Jubilee
-        stats.set_int("MPPLY_XMAS23_PLATES0", 3) -- eCola & Sprunk Plates
-        stats.set_int("MPX_COUNT_HOTRING_RACE", 20) -- Racing Liveries for Hotring Sabre
-        stats.set_int("MPX_FINISHED_SASS_RACE_TOP_3", 20) -- Trade Price for Hotring Everon
+        stats.set_int('MPX_XMAS2023_ADV_MODE_WINS', 5) -- Unlock Christmas 2023 liveries.
+        stats.set_int('MPX_FIXER_GENERAL_BS', -8577) -- Trade Price for Champion, Baller ST
+        stats.set_int('MPX_FIXER_COMPLETED_BS', -1) -- Compelete all The Contract missions.
+        stats.set_int('MPX_FIXER_COUNT', 20) -- Trade Price for Granger 3600LX, Deity, Patriot Mil-Spec, Jubilee
+        stats.set_int('MPPLY_XMAS23_PLATES0', 3) -- eCola & Sprunk Plates
+        stats.set_int('MPX_COUNT_HOTRING_RACE', 20) -- Racing Liveries for Hotring Sabre
+        stats.set_int('MPX_FINISHED_SASS_RACE_TOP_3', 20) -- Trade Price for Hotring Everon
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
