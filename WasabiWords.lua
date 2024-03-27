@@ -495,7 +495,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_NUMBER_TURBO_STARTS_IN_RACE', 90)
         stats.set_int('MPX_USJS_FOUND', 50)
         stats.set_int('MPX_USJS_COMPLETED', 50)
-        stats.set_int('MPX_MPPLY_TIMES_RACE_BEST_LAP', 101)
+        stats.set_int('MPPLY_TIMES_RACE_BEST_LAP', 101)
         stats.set_int('MPX_AWD_FMRALLYWONDRIVE', 25)
         stats.set_int('MPX_AWD_FMWINSEARACE', 25)
         stats.set_int('MPX_AWD_FMWINAIRRACE', 25)
@@ -508,7 +508,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_SCRIPT_INCREASE_DRIV', 100)
         stats.set_int('MPX_SCRIPT_INCREASE_SHO', 100)
         stats.set_int('MPX_AWD_DANCE_TO_SOLOMUN', 360)
-        stats.set_int('NIGHTCLUB_HOTSPOT_TIME_MS', 3600000)
+        stats.set_int('MPX_NIGHTCLUB_HOTSPOT_TIME_MS', 3600000)
         stats.set_int('MPX_CASINO_DECORATION_GIFT_1', -1);
         stats.set_bool('MPX_COMPLETE_H4_F_USING_VETIR', true);
         stats.set_bool('MPX_COMPLETE_H4_F_USING_LONGFIN', true);
@@ -659,7 +659,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(9400, 9414) --Fill Clubhouse with junk
         stats.set_int("MPX_XMAS2023_ADV_MODE_WINS", 6) --Unlock Christmas 2023 liveries.
         stats.set_int("MPX_FIXER_GENERAL_BS", -8577) -- Trade price for champion/baller7
-        stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Compelete all The Contract missions.
+        stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Complete all The Contract missions.
         stats.set_int("MPX_FIXER_COUNT", 20) -- Trade price for granger2/deity/patriot3/jubilee
         stats.set_int("MPPLY_XMAS23_PLATES0", 3) -- ECola & Sprunk Plates
         stats.set_int("MPX_COUNT_HOTRING_RACE", 20) -- Liveries for hotring
