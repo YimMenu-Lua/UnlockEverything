@@ -477,12 +477,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_GRNLAUNCH_ENEMY_KILLS', 600) -- Weapon Tints for Grenade Launcher
         stats.set_int('MPX_RPG_ENEMY_KILLS', 600) -- Weapon Tints for Rocket Launcher
         stats.set_int('MPX_MINIGUNS_ENEMY_KILLS', 600) -- Weapon Tints for Minigun
-        stats.set_int('MPX_SR_HIGHSCORE_1', 900)
-        stats.set_int('MPX_SR_HIGHSCORE_2', 2400)
-        stats.set_int('MPX_SR_HIGHSCORE_3', 3400)
-        stats.set_int('MPX_SR_HIGHSCORE_4', 3300)
-        stats.set_int('MPX_SR_HIGHSCORE_5', 4100)
-        stats.set_int('MPX_SR_HIGHSCORE_6', 550)
         stats.set_int('MPX_SR_WEAPON_BIT_SET', 262143)
         stats.set_bool('MPX_SR_TIER_1_REWARD', true)
         stats.set_bool('MPX_SR_INCREASE_THROW_CAP', true)
@@ -664,16 +658,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_SALV23_GEN_BS", -1) -- polgauntlet trade price
         stats.set_int("MPX_SALV23_SCOPE_BS", -1) -- police5 trade price
         stats.set_int("MPX_MOST_TIME_ON_3_PLUS_STARS", 300000) -- police4 trade price
-        stats.set_int('MPX_LOWRIDER_FLOW_COMPLETE', 3)
-        stats.set_int('MPX_LOW_FLOW_CURRENT_PROG', 9)
-        stats.set_int('MPX_LOW_FLOW_CURRENT_CALL', 9)
-        stats.set_bool('MPX_HAS_WATCHED_BENNY_CUTSCE', true)
-        stats.set_bool('MPX_LOW_FLOW_CS_DRV_SEEN', true)
-        stats.set_bool('MPX_LOW_FLOW_CS_TRA_SEEN', true)
-        stats.set_bool('MPX_LOW_FLOW_CS_FUN_SEEN', true)
-        stats.set_bool('MPX_LOW_FLOW_CS_PHO_SEEN', true)
-        stats.set_bool('MPX_LOW_FLOW_CS_FIN_SEEN', true)
-        stats.set_bool('MPX_LOW_BEN_INTRO_CS_SEEN', true)
+        stats.set_int("MPX_LOWRIDER_FLOW_COMPLETE", 1)
         stats.set_int("MPX_AT_FLOW_MISSION_PROGRESS", 50)
         stats.set_int("MPX_AT_FLOW_IMPEXP_NUM", 50)
         stats.set_int("MPX_AT_FLOW_BITSET_MISSIONS0", -1)
