@@ -623,12 +623,12 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_AWD_COINPURSE', 950000) -- The Wizard's Ruin -- Platinum Sword -- Coin Purse
         stats.set_int('MPX_AWD_ASTROCHIMP', 3000000) -- Space Monkey 3: Bananas Gone Bad -- Astrochimp
         stats.set_int('MPX_AWD_MASTERFUL', 40000) -- Penetrator -- Masterful
-        stats.set_int('MPX_SCGW_NUM_WINS_GANG_0', 20) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 1
-        stats.set_int('MPX_SCGW_NUM_WINS_GANG_1', 20) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 2
-        stats.set_int('MPX_SCGW_NUM_WINS_GANG_2', 20) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 3
-        stats.set_int('MPX_SCGW_NUM_WINS_GANG_3', 20) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 4
-        stats.set_int('MPX_IAP_MAX_MOON_DIST', 3474000) -- Invade and Persuade II -- Travel 3,474,000km on the moon
-        stats.set_int('MPX_LAST_ANIMAL', 100) -- Invade and Persuade II -- Kill 100 animals in a single playthrough
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_0', 55) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 1
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_1', 56) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 2
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_2', 57) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 3
+        stats.set_int('MPX_SCGW_NUM_WINS_GANG_3', 58) -- Street Crimes: Gang Wars Edition -- Win 20 games with character 4
+        stats.set_int('MPX_IAP_MAX_MOON_DIST', 2147483647) -- Invade and Persuade II -- Travel 3,474,000km on the moon
+        stats.set_int('MPX_LAST_ANIMAL', 108) -- Invade and Persuade II -- Kill 100 animals in a single playthrough
         stats.set_int('MPX_CH_ARC_CAB_CLAW_TROPHY', -1) -- Kitty Claw Trophy
         stats.set_int('MPX_CH_ARC_CAB_LOVE_TROPHY', -1) -- The Love Professor Trophy
         stats.set_int('MPX_AWD_FACES_OF_DEATH', 50) -- Camhedz -- Faces Of Death
