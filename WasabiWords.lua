@@ -593,10 +593,12 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_ARENAWARS_AP_TIER", 1000)
         stats.set_int("MPX_ARENAWARS_AP", 10040)
         stats.set_int("MPX_ARENAWARS_SKILL_LEVEL", 20)
+        stats.set_int("MPX_ARENAWARS_SP", 210)
+        stats.set_int("MPX_ARENAWARS_SP_LIFETIME", 210)
         stats.set_int("MPX_ARENAWARS_MATCHES_PLYD", 52500)
         stats.set_int("MPX_ARENAWARS_MATCHES_PLYDT", 52500)
         stats.set_int("MPX_ARENAWARS_CARRER_WINS", 72500)
-        stats.set_int("MPX_ARENAWARS_CARRER_WINST", 32500)
+        stats.set_int("MPX_ARENAWARS_CARRER_WINT", 32500)
         stats.set_int("MPX_ARN_LIFETIME_KILLS", 260000)
         stats.set_int("MPX_ARN_LIFETIME_DEATHS", 20000)
         stats.set_int("MPX_ARN_SPECTATOR_KILLS", 5000)
@@ -748,17 +750,57 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_CH_ARC_CAB_CLAW_TROPHY', -1) -- Kitty Claw Trophy
         stats.set_int('MPX_CH_ARC_CAB_LOVE_TROPHY', -1) -- The Love Professor Trophy
         stats.set_int('MPX_AWD_FACES_OF_DEATH', 50) -- Camhedz -- Faces Of Death
+        stats.set_int("MPX_AWD_COLD_CALLER", 50)
+        stats.set_int("MPX_AWD_PRODUCER", 60)
+        stats.set_int("MPX_AWD_CONTRACTOR", 50)
+        stats.set_int("MPX_FIXER_SC_VEH_RECOVERED", 100)
+        stats.set_int("MPX_FIXER_SC_VAL_RECOVERED", 100)
+        stats.set_int("MPX_FIXER_SC_GANG_TERMINATED", 100)
+        stats.set_int("MPX_FIXER_SC_VIP_RESCUED", 100)
+        stats.set_int("MPX_FIXER_SC_ASSETS_PROTECTED", 100)
+        stats.set_int("MPX_FIXER_SC_EQ_DESTROYED", 100)
+        stats.set_int("MPX_FIXER_COUNT", 600)
+        stats.set_int("MPX_FIXER_EARNINGS", 26340756)
+        stats.set_int("MPX_PAYPHONE_BONUS_KILL_METHOD", -1)
+        stats.set_int("MPX_FIXER_HQ_OWNED", 1) -- Trade Price for buffalo4
+        stats.set_int("MPX_FIXER_GENERAL_BS", -8577) -- Trade price for champion/baller7
+        stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Complete all The Contract missions.
+        stats.set_bool("MPX_AWD_TEEING_OFF", true)
+        stats.set_bool("MPX_AWD_PARTY_NIGHT", true)
+        stats.set_bool("MPX_AWD_BILLIONAIRE_GAMES", true)
+        stats.set_bool("MPX_AWD_HOOD_PASS", true)
+        stats.set_bool("MPX_AWD_STUDIO_TOUR", true)
+        stats.set_bool("MPX_AWD_DONT_MESS_DRE", true)
+        stats.set_bool("MPX_AWD_BACKUP", true)
+        stats.set_bool("MPX_AWD_SHORTFRANK_1", true)
+        stats.set_bool("MPX_AWD_SHORTFRANK_2", true)
+        stats.set_bool("MPX_AWD_SHORTFRANK_3", true)
+        stats.set_bool("MPX_AWD_CONTR_KILLER", true)
+        stats.set_bool("MPX_AWD_DOGS_BEST_FRIEND", true)
+        stats.set_bool("MPX_AWD_MUSIC_STUDIO", true)
+        stats.set_bool("MPX_AWD_SHORTLAMAR_1", true)
+        stats.set_bool("MPX_AWD_SHORTLAMAR_2", true)
+        stats.set_bool("MPX_AWD_SHORTLAMAR_3", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_SETUP", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_STRAND", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_PARTY", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_PARTY_2", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_PARTY_F", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_BILL", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_BILL_2", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_BILL_F", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_HOOD", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_HOOD_2", true)
+        stats.set_bool("MPX_BS_IMANI_D_APP_HOOD_F", true)
+        stats.set_packed_stat_bool(32312, true)
         stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
-        stats.set_int("MPX_PET_CHOP_TIME", NETWORK.GET_CLOUD_TIME_AS_INT() - 86400) -- Pet Chop Time?
-        stats.set_bool("MPX_AWD_DOGS_BEST_FRIEND", true) -- Pet Chop Time?
         stats.set_int("MPX_AWD_CALLME", tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
         stats.set_int("MPX_H3_VEHICLESUSED", -1) -- Trade Price for Diamond Casino Heist Finale.
         stats.set_int("MPX_H4_H4_DJ_MISSIONS", -1) -- Trade Price for weevil
         stats.set_int("MPX_H4_PROGRESS", -1) -- Trade Price for winky
         stats.set_int("MPX_TUNER_GEN_BS", -1) -- Trade Price for tailgater2
-        stats.set_int("MPX_FIXER_HQ_OWNED", 1) -- Trade Price for buffalo4
         stats.set_int("MPX_ULP_MISSION_PROGRESS", -1) -- Trade Price greenwood/conada
         stats.set_int("MPX_SUM23_AVOP_PROGRESS", -1) -- Trade Price Raiju
         stats.set_int("MPX_GANGOPS_FLOW_BITSET_MISS0", -1) -- Trade Price for deluxo/akula/riot2/stromberg/chernobog/barrage/khanjali/volatol/thruster
@@ -848,9 +890,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_packed_stat_int(9357, 4) --Fill Clubhouse with money
         unlock_packed_bools(9400, 9414) --Fill Clubhouse with junk
         stats.set_int("MPX_XMAS2023_ADV_MODE_WINS", 6) --Unlock Christmas 2023 liveries.
-        stats.set_int("MPX_FIXER_GENERAL_BS", -8577) -- Trade price for champion/baller7
-        stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Complete all The Contract missions.
-        stats.set_int("MPX_FIXER_COUNT", 20) -- Trade price for granger2/deity/patriot3/jubilee
         stats.set_int("MPPLY_XMAS23_PLATES0", 3) -- ECola & Sprunk Plates
         stats.set_int("MPX_COUNT_HOTRING_RACE", 20) -- Liveries for hotring
         stats.set_int("MPX_FINISHED_SASS_RACE_TOP_3", 20) -- Trade price for hotring/everon2
