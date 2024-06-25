@@ -177,6 +177,9 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(42239, 42242) --CAVALCADE3, IMPALER5, POLGAUNTLET, DORADO
         unlock_packed_bools(42244, 42247) --BALLER8, TERMINUS, BOXVILLE6, BENSON2
         unlock_packed_bools(42249, 42249) --Candy Cane
+        unlock_packed_bools(51196, 51196) --The Shocker
+        unlock_packed_bools(51215, 51247) --Alpine Outfit, Pisswasser Good Time Tee, Gold Pisswasser Shorts, Mid Autumn Festival Shirt, Mid Autumn Festival Sundress (Female), Dia de Muertos Tee, Halloween Spooky Tee, Black Demon Goat Mask, Red Demon Goat Mask, Tan Demon Goat Mask, Black Creepy Cat Mask, Gray Creepy Cat Mask, Brown Creepy Cat Mask, Gray Hooded Skull Mask, Red Hooded Skull Mask, Blue Hooded Skull Mask, Red Flaming Skull Mask, Green Flaming Skull Mask, Orange Flaming Skull Mask, Orange Glow Skeleton Onesie, Purple Glow Skeleton Onesie, Green Glow Skeleton Onesie, Tan Turkey, Brown Turkey, Rockstar Red Logo Sweater, Silver Gun Necklace, Black Gun Necklace, Gold Gun Necklace, Rose Gun Necklace, Bronze Gun Necklace, Black Yeti Fall Sweater, White Yeti Fall Sweater, Red Yeti Fall Sweater
+        unlock_packed_bools(51258, 51258) --Pizza This... Tee
         if is_player_male then
             unlock_packed_bools(3483, 3492) --Death Defying T-Shirt (Male), For Hire T-Shirt (Male), Gimme That T-Shirt (Male), Asshole T-Shirt (Male), Can't Touch This T-Shirt (Male), Decorated T-Shirt (Male), Psycho Killer T-Shirt (Male), One Man Army T-Shirt (Male), Shot Caller T-Shirt (Male), Showroom T-Shirt (Male)
             unlock_packed_bools(6082, 6083) --Black Benny's T-Shirt, White Benny's T-Shirt
@@ -295,6 +298,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED3', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED4', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED5', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED6', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_1_UNLCK', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_2_UNLCK', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_3_UNLCK', -1)
