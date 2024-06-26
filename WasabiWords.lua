@@ -6,8 +6,8 @@ end
 
 -- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
 local current_objectives_global = 2359296
-local weekly_words_global = 2737646
-local objectives_state_global = 1574743
+local weekly_words_global = 2737992
+local objectives_state_global = 1574744
 
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
@@ -898,7 +898,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_COUNT_HOTRING_RACE", 20) -- Liveries for hotring
         stats.set_int("MPX_FINISHED_SASS_RACE_TOP_3", 20) -- Trade price for hotring/everon2
         for i = 0, 2 do --Unlock all daily rewards.
-            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
+            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4244 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
         end
         globals.set_int(objectives_state_global, 1)
