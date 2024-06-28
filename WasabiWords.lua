@@ -6,8 +6,8 @@ end
 
 -- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
 local current_objectives_global = 2359296
-local weekly_words_global = 2737646
-local objectives_state_global = 1574743
+local weekly_words_global = 2737992
+local objectives_state_global = 1574744
 
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
@@ -177,6 +177,16 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(42239, 42242) --CAVALCADE3, IMPALER5, POLGAUNTLET, DORADO
         unlock_packed_bools(42244, 42247) --BALLER8, TERMINUS, BOXVILLE6, BENSON2
         unlock_packed_bools(42249, 42249) --Candy Cane
+        unlock_packed_bools(32407, 32408) -- Bottom Dollar Jacket, The Bottom Dollar
+        unlock_packed_bools(42257, 42257) -- The Street Artist
+        unlock_packed_bools(42268, 42268) -- Ghosts Exposed Outfit
+        unlock_packed_bools(42286, 42286) -- Ludendorff Survivor
+        unlock_packed_bools(42287, 42287) -- Pizza This... Forwards Cap, Pizza This... Backwards Cap, Pizza This... Outfit
+        unlock_packed_bools(51196, 51197) -- The Shocker, Bottom Dollar Bail Enforcement
+        unlock_packed_bools(51215, 51258) -- Alpine Outfit, Pisswasser Good Time Tee, Gold Pisswasser Shorts, Mid Autumn Festival Shirt, Mid Autumn Festival Sundress, Día de Muertos Tee, Halloween Spooky Tee, Black Demon Goat Mask, Red Demon Goat Mask, Tan Demon Goat Mask, Black Creepy Cat Mask, Gray Creepy Cat Mask, Brown Creepy Cat Mask, Gray Hooded Skull Mask, Red Hooded Skull Mask, Blue Hooded Skull Mask, Red Flaming Skull Mask, Green Flaming Skull Mask, Orange Flaming Skull Mask, Orange Glow Skeleton Onesie, Purple Glow Skeleton Onesie, Green Glow Skeleton Onesie, Tan Turkey, Brown Turkey, Rockstar Red Logo Sweater, Silver Gun Necklace, Black Gun Necklace, Gold Gun Necklace, Rose Gun Necklace, Bronze Gun Necklace, Black Yeti Fall Sweater, White Yeti Fall Sweater, Red Yeti Fall Sweater, The Diamond Jackpot Tee, Cobalt Jackal Racing Jersey, Cobalt Jackal Racing Pants, Khaki 247 Chino Pants, Demon Biker Jacket, Purple Güffy Cardigan, SA Denim Biker Jacket, Green 247 Shirt, Barbed Wire Shirt, Ride or Die Gaiter, Pizza This... Tee
+        unlock_packed_bools(51189, 51189) -- Spray Can
+        stats.set_packed_stat_int(7671, 100) -- Plant on Desk, Plaque Trophy, Shield Trophy
+        stats.set_int("MPX_PROG_HUB_BOUNTIES_ALIVE_BS", -1) -- Cuff Trophy
         if is_player_male then
             unlock_packed_bools(3483, 3492) --Death Defying T-Shirt (Male), For Hire T-Shirt (Male), Gimme That T-Shirt (Male), Asshole T-Shirt (Male), Can't Touch This T-Shirt (Male), Decorated T-Shirt (Male), Psycho Killer T-Shirt (Male), One Man Army T-Shirt (Male), Shot Caller T-Shirt (Male), Showroom T-Shirt (Male)
             unlock_packed_bools(6082, 6083) --Black Benny's T-Shirt, White Benny's T-Shirt
@@ -295,6 +305,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED3', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED4', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED5', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED6', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_1_UNLCK', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_2_UNLCK', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_3_UNLCK', -1)
@@ -705,8 +716,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_bool("MPX_AWD_CRASH_COURSE", true)
         stats.set_bool("MPX_AWD_ARENA_LEGEND", true)
         stats.set_bool("MPX_AWD_PEGASUS", true)
-        stats.set_packed_stat_bool(25010, true) -- Skip arena wall help.
-        stats.set_packed_stat_bool(25014, true) -- Skip arena wall tutorial.
+        unlock_packed_bools(25010, 25010) -- Skip arena wall help.
+        unlock_packed_bools(25014, 25014) -- Skip arena wall tutorial.
         stats.set_bool('MPX_AWD_DEADEYE', true) -- Badlands Revenge II -- Dead Eye
         stats.set_bool('MPX_AWD_PISTOLSATDAWN', true) -- Badlands Revenge II -- Pistols At Dawn
         stats.set_bool('MPX_AWD_TRAFFICAVOI', true) -- Race and Chase -- Beat the Traffic
@@ -792,7 +803,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_bool("MPX_BS_IMANI_D_APP_HOOD", true)
         stats.set_bool("MPX_BS_IMANI_D_APP_HOOD_2", true)
         stats.set_bool("MPX_BS_IMANI_D_APP_HOOD_F", true)
-        stats.set_packed_stat_bool(32312, true)
+        unlock_packed_bools(32312, 32312)
         stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
@@ -894,7 +905,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_COUNT_HOTRING_RACE", 20) -- Liveries for hotring
         stats.set_int("MPX_FINISHED_SASS_RACE_TOP_3", 20) -- Trade price for hotring/everon2
         for i = 0, 2 do --Unlock all daily rewards.
-            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4243 + (1 + (i * 3)))
+            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5569)) + 681 + 4244 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
         end
         globals.set_int(objectives_state_global, 1)
