@@ -804,7 +804,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
-        stats.set_int("MPX_AWD_CALLME", tunables.get_int(654710993)) -- Acid Lab Equipment Unlock
+        stats.set_int("MPX_AWD_CALLME", 50) -- Acid Lab Equipment Unlock
         stats.set_int("MPX_H3_VEHICLESUSED", -1) -- Trade Price for Diamond Casino Heist Finale.
         stats.set_int("MPX_H4_H4_DJ_MISSIONS", -1) -- Trade Price for weevil
         stats.set_int("MPX_H4_PROGRESS", -1) -- Trade Price for winky
