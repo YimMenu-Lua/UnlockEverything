@@ -4,6 +4,29 @@ function unlock_packed_bools(from, to)
     end
 end
 
+function buy_weapon_direct_price(weapon_joaat, price)
+    if NETSHOPPING.NET_GAMESERVER_BASKET_IS_ACTIVE() then
+        NETSHOPPING.NET_GAMESERVER_BASKET_END()
+    end
+    local started, transaction_id = NETSHOPPING.NET_GAMESERVER_BASKET_START(0, joaat('CATEGORY_WEAPON'), joaat('NET_SHOP_ACTION_SPEND'), 4)
+    local basket_item = memory.allocate(32) --It will crash if we deallocate this after calling, so we will just have to leak 32 bytes.
+    local basket_add_item = basket_item:get_address()
+    basket_item:set_qword(weapon_joaat)
+    basket_item = basket_item:add(8)
+    basket_item:set_qword(0)
+    basket_item = basket_item:add(8)
+    basket_item:set_qword(price)
+    basket_item = basket_item:add(8)
+    basket_item:set_qword(1)
+    NETSHOPPING.NET_GAMESERVER_BASKET_ADD_ITEM(basket_add_item, 1)
+    NETSHOPPING.NET_GAMESERVER_CHECKOUT_START(transaction_id)
+end
+
+function buy_weapon(weapon_joaat)
+    local price = NETSHOPPING.NET_GAMESERVER_GET_PRICE(weapon_joaat, joaat('CATEGORY_WEAPON'), 1)
+    buy_weapon_direct_price(weapon_joaat, price)
+end
+
 -- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
 local current_objectives_global = 2359296
 local weekly_words_global = 2737992
@@ -12,7 +35,8 @@ local objectives_state_global = 1574744
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
 wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasabi
-    script.run_in_fiber(function (script)
+    script.run_in_fiber(function (script_name)
+    script.execute_as_script("shop_controller", function ()
         local is_player_male = (ENTITY.GET_ENTITY_MODEL(PLAYER.PLAYER_PED_ID()) == joaat('mp_m_freemode_01'))
         unlock_packed_bools(110, 113) --Red Check Pajamas, Green Check Pajamas, Black Check Pajamas, I Heart LC T-shirt
         unlock_packed_bools(115, 115) --Roosevelt
@@ -906,6 +930,14 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_PROG_HUB_BOUNTIES_ALIVE_BS", -1) --Cuff Trophy
         stats.set_int("MPX_TIMES_PREV_PLAY_AS_BOSS", 500) --VIP Variant
         stats.set_int("MPX_GBTELTIMESPLAYEDGOONPREV", 500) --Bodyguard Varient
+        stats.set_int("MPX_LOW_FLOW_CURRENT_PROG", 9) --Skip the Lamar lowrider missions.
+        stats.set_int("MPX_LOW_FLOW_CURRENT_CALL", 9) --Skip the Lamar lowrider missions.
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 1) == 0 then --Buy the Candy Cane. (We need this or else the user can't hide it from the weapons locker if they wish)
+            buy_weapon(joaat("WP_WT_CANDYCANE_t1_v0"))
+        end
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 32) == 0 then --Buy The Shocker. (We need this or else the user can't hide it from the weapons locker if they wish)
+            buy_weapon_direct_price(joaat("WP_WT_STUNROD_t1_v1"), 0)
+        end
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5570)) + 681 + 4244 + (1 + (i * 3)))
             globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
@@ -913,5 +945,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         globals.set_int(objectives_state_global, 1)
         globals.set_int(weekly_words_global + (1 + (0 * 6)) + 1, globals.get_int(weekly_words_global + (1 + (0 * 6)) + 2)) --Unlock Weekly Objective
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
+    end)
     end)
 end)
