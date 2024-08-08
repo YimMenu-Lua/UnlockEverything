@@ -4,7 +4,7 @@ function unlock_packed_bools(from, to)
     end
 end
 
-function buy_weapon_direct_price(weapon_joaat, price)
+function buy_weapon(weapon_joaat)
     if NETSHOPPING.NET_GAMESERVER_BASKET_IS_ACTIVE() then
         NETSHOPPING.NET_GAMESERVER_BASKET_END()
     end
@@ -15,16 +15,12 @@ function buy_weapon_direct_price(weapon_joaat, price)
     basket_item = basket_item:add(8)
     basket_item:set_qword(0)
     basket_item = basket_item:add(8)
+    local price = NETSHOPPING.NET_GAMESERVER_GET_PRICE(weapon_joaat, joaat('CATEGORY_WEAPON'), 1)
     basket_item:set_qword(price)
     basket_item = basket_item:add(8)
     basket_item:set_qword(1)
     NETSHOPPING.NET_GAMESERVER_BASKET_ADD_ITEM(basket_add_item, 1)
     NETSHOPPING.NET_GAMESERVER_CHECKOUT_START(transaction_id)
-end
-
-function buy_weapon(weapon_joaat)
-    local price = NETSHOPPING.NET_GAMESERVER_GET_PRICE(weapon_joaat, joaat('CATEGORY_WEAPON'), 1)
-    buy_weapon_direct_price(weapon_joaat, price)
 end
 
 -- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
@@ -944,8 +940,11 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 1) == 0 then --Buy the Candy Cane. (We need this or else the user can't hide it from the weapons locker if they wish)
             buy_weapon(joaat("WP_WT_CANDYCANE_t1_v0"))
         end
-        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 32) == 0 then --Buy The Shocker. (We need this or else the user can't hide it from the weapons locker if they wish)
-            buy_weapon_direct_price(joaat("WP_WT_STUNROD_t1_v1"), 0)
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x10) == 0 then --Buy the Snowball Launcher. (We need this or else the user can't hide it from the weapons locker if they wish)
+            buy_weapon(joaat("WP_WT_SNOWLAUNCHER_t0_v0"))
+        end
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x20) == 0 then --Buy The Shocker. (We need this or else the user can't hide it from the weapons locker if they wish)
+            buy_weapon(joaat("WP_WT_STUNROD_t1_v1"))
         end
         for i = 0, 2 do --Unlock all daily rewards.
             local objective = globals.get_int(current_objectives_global + (1 + (0 * 5570)) + 681 + 4244 + (1 + (i * 3)))
