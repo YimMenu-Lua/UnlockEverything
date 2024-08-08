@@ -35,7 +35,7 @@ local objectives_state_global = 1574744
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
 wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasabi
-    script.run_in_fiber(function (script_name)
+    script.run_in_fiber(function (wasabiwords_script)
     script.execute_as_script("shop_controller", function ()
         local is_player_male = (ENTITY.GET_ENTITY_MODEL(PLAYER.PLAYER_PED_ID()) == joaat('mp_m_freemode_01'))
         unlock_packed_bools(110, 113) --Red Check Pajamas, Green Check Pajamas, Black Check Pajamas, I Heart LC T-shirt
@@ -163,7 +163,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(34262, 34361) --LD Organics
         unlock_packed_bools(32273, 32273) --White Born x Raised T-Shirt
         unlock_packed_bools(32275, 32275) --Circoloco T-Shirt
-        unlock_packed_bools(32287, 32287) --Dr. Dre
+        unlock_packed_bools(32287, 32291) --Dr. Dre, The Drive, The Putt, The Chip, The Birdie
         unlock_packed_bools(32295, 32311) --Orange Goldfish, Purple Goldfish, Bronze Goldfish, Clownfish, Juvenile Gull, Sooty Gull, Black-headed Gull, Herring Gull, Brown Sea Lion, Dark Sea Lion, Spotted Sea Lion, Gray Sea Lion, Green Festive T-Shirt, Red Festive T-Shirt, Orange DJ Pooh T-Shirt, White WCC DJ Pooh T-Shirt, Blue WCC DJ Pooh T-Shirt
         unlock_packed_bools(32315, 32316) --Navy Coveralls, Gray Coveralls, Marathon Hoodie
         unlock_packed_bools(32366, 32366) --Declasse Draugur (Trade Price)
@@ -327,6 +327,15 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED4', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED5', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_UNLOCKED6', -1)
+        stats.set_int('MPX_GCLUB_FM_AMMO_BOUGHT', 1)
+        stats.set_int('MPX_CHAR_WEAP_EQUIPPED', -1)
+        stats.set_int('MPX_CHAR_WEAP_EQUIPPED', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_EQUIPPED', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_EQUIPPED2', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_EQUIPPED3', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_EQUIPPED4', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_EQUIPPED5', -1)
+        stats.set_int('MPX_CHAR_FM_WEAP_EQUIPPED6', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_1_UNLCK', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_2_UNLCK', -1)
         stats.set_int('MPX_CHAR_FM_WEAP_ADDON_3_UNLCK', -1)
