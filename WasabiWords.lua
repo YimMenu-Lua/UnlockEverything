@@ -201,7 +201,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(42280, 42284) --Unlock pizzaboy, poldominator10, poldorado, polimpaler5, polimpaler6 trade price.
         unlock_packed_bools(42257, 42268) --The Street Artist, Ghosts Exposed 2024, Ghosts Exposed Outfit
         unlock_packed_bools(42286, 42287) --Ludendorff Survivor, Pizza This... Forwards Cap, Pizza This... Backwards Cap, Pizza This... Outfit
-        unlock_packed_bools(51189, 51189) -- Spray Can
+        unlock_packed_bools(51189, 51189) --Spray Can
         unlock_packed_bools(51196, 51197) --The Shocker, Bottom Dollar Bail Enforcement tint for Stungun
         unlock_packed_bools(51215, 51258) --Alpine Outfit, Brown Alpine Hat, Pisswasser Good Time Tee, Gold Pisswasser Shorts, Mid Autumn Festival Shirt, Mid Autumn Festival Sundress (female), Día de Muertos Tee, Halloween Spooky Tee, Black Demon Goat Mask, Red Demon Goat Mask, Tan Demon Goat Mask, Black Creepy Cat Mask, Gray Creepy Cat Mask, Brown Creepy Cat Mask, Gray Hooded Skull Mask, Red Hooded Skull Mask, Blue Hooded Skull Mask, Red Flaming Skull Mask, Green Flaming Skull Mask, Orange Flaming Skull Mask, Orange Glow Skeleton Onesie, Purple Glow Skeleton Onesie, Green Glow Skeleton Onesie, Tan Turkey, Brown Turkey, Rockstar Red Logo Sweater, Silver Gun Necklace, Black Gun Necklace, Gold Gun Necklace, Rose Gun Necklace, Bronze Gun Necklace, Black Yeti Fall Sweater, White Yeti Fall Sweater, Red Yeti Fall Sweater, The Diamond Jackpot Tee, Cobalt Jackal Racing Jersey, Cobalt Jackal Racing Pants, Khaki 247 Chino Pants, Demon Biker Jacket, Purple Güffy Cardigan, SA Denim Biker Jacket, Green 247 Shirt, Barbed Wire Shirt, Ride or Die Gaiter, Pizza This... Tee
         if is_player_male then
@@ -937,6 +937,9 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_GBTELTIMESPLAYEDGOONPREV", 500) --Bodyguard Varient
         stats.set_int("MPX_LOW_FLOW_CURRENT_PROG", 9) --Skip the Lamar lowrider missions.
         stats.set_int("MPX_LOW_FLOW_CURRENT_CALL", 9) --Skip the Lamar lowrider missions.
+        stats.set_int("MPX_HUB_SALES_COMPLETED", 10) --Trade price for mule4, pounder2.
+        stats.set_int("MPX_NIGHTCLUB_JOBS_DONE", 10) --Trade price for patriot2, blimp3.
+        stats.set_packed_stat_int(3032, 100) --Trade price for oppressor2.
         if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 1) == 0 then --Buy the Candy Cane. (We need this or else the user can't hide it from the weapons locker if they wish)
             buy_weapon(joaat("WP_WT_CANDYCANE_t1_v0"))
         end
