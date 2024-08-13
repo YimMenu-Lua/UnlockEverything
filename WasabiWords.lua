@@ -800,7 +800,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_FIXER_EARNINGS", 26340756)
         stats.set_int("MPX_PAYPHONE_BONUS_KILL_METHOD", -1)
         stats.set_int("MPX_FIXER_HQ_OWNED", 1) -- Trade Price for buffalo4
-        stats.set_int("MPX_FIXER_GENERAL_BS", -8577) -- Trade price for champion/baller7
+        stats.set_int("MPX_FIXER_GENERAL_BS", -1) -- Trade price for champion/baller7
         stats.set_int("MPX_FIXER_COMPLETED_BS", -1) -- Complete all The Contract missions.
         stats.set_bool("MPX_AWD_TEEING_OFF", true)
         stats.set_bool("MPX_AWD_PARTY_NIGHT", true)
