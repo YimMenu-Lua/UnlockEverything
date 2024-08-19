@@ -941,6 +941,9 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_NIGHTCLUB_JOBS_DONE", 10) --Trade price for patriot2, blimp3.
         stats.set_int("MPX_YACHT_MISSION_FLOW", -1) --Complete all A Superyacht Life missions so the Captain doesn't call you constantly.
         stats.set_packed_stat_int(3032, 100) --Trade price for oppressor2.
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE3") & 0x80000000) == 0 then --Buy the WM 29 Pistol. (We need this or else the user can't hide it from the weapons locker if they wish)
+            buy_weapon(joaat("WP_WT_PISTOLXM3_t0_v0"))
+        end
         if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 1) == 0 then --Buy the Candy Cane. (We need this or else the user can't hide it from the weapons locker if they wish)
             buy_weapon(joaat("WP_WT_CANDYCANE_t1_v0"))
         end
