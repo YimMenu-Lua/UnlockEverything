@@ -1,3 +1,13 @@
+local is_content_item_locked = memory.scan_pattern("89 54 24 ? 48 83 EC ? 85 D2")
+
+memory.dynamic_hook("is_content_item_locked", "bool", { "int", "int" }, is_content_item_locked,
+function(ret_val, this, hash)
+    ret_val:set(false)
+    return false
+end,
+function(ret_val, this, hash)
+end)
+
 function unlock_packed_bools(from, to)
     for i = from, to do
         stats.set_packed_stat_bool(i, true)
