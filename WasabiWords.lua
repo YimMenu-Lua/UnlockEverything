@@ -833,7 +833,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
-        stats.set_int("MPX_AWD_CALLME", tunables.get_int('ACID_LAB_UPGRADE_EQUIPMENT_NUM_MISSIONS_UNLOCK')) -- Acid Lab Equipment Unlock
+        stats.set_int("MPX_AWD_CALLME", 50) -- Acid Lab Equipment Unlock
         stats.set_int("MPX_H3_VEHICLESUSED", -1) -- Trade Price for Diamond Casino Heist Finale.
         stats.set_int("MPX_H4_H4_DJ_MISSIONS", -1) -- Trade Price for weevil
         stats.set_int("MPX_H4_PROGRESS", -1) -- Trade Price for winky
@@ -930,7 +930,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPPLY_XMAS23_PLATES0", 3) -- ECola & Sprunk Plates
         stats.set_int("MPX_COUNT_HOTRING_RACE", 20) -- Liveries for hotring
         stats.set_int("MPX_FINISHED_SASS_RACE_TOP_3", 20) -- Trade price for hotring/everon2
-        stats.set_int("MPX_AWD_DISPATCHWORK", 5) --Trade price for polgreenwood.
+        stats.set_int("MPX_AWD_DISPATCHWORK", 50) --Trade price for polgreenwood.
         stats.set_packed_stat_int(7671, 100) --Plant on Desk, Plaque Trophy, Shield Trophy
         stats.set_int("MPX_PROG_HUB_BOUNTIES_ALIVE_BS", -1) --Cuff Trophy
         stats.set_int("MPX_TIMES_PREV_PLAY_AS_BOSS", 500) --VIP Variant
@@ -940,6 +940,44 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_HUB_SALES_COMPLETED", 10) --Trade price for mule4, pounder2.
         stats.set_int("MPX_NIGHTCLUB_JOBS_DONE", 10) --Trade price for patriot2, blimp3.
         stats.set_int("MPX_YACHT_MISSION_FLOW", -1) --Complete all A Superyacht Life missions so the Captain doesn't call you constantly.
+        stats.set_bool("AWD_HIVALBOUNT1", true) --Bottoms Dollar Bounties Awards.
+	    stats.set_bool("AWD_HIVALBOUNT2", true)
+	    stats.set_bool("AWD_HIVALBOUNT3", true)
+	    stats.set_bool("AWD_HIVALBOUNT4", true)
+	    stats.set_bool("AWD_HIVALBOUNT5", true)
+	    stats.set_bool("AWD_HIVALBOUNT6", true)
+	    stats.set_int("MPX_AWD_BOUNTIES", 60)
+	    stats.set_int("MPX_AWD_STANBOUNTIES", 50)
+	    stats.set_int("MPX_AWD_BOUNTEARNS", 6000000)
+	    stats.set_int("MPX_AWD_BAILOFFICSTAFF", 6000000)
+	    stats.set_int("MPX_AWD_DISPATCHWORK", 50)
+	    stats.set_int("MPX_AWD_PIZZATHIS", 50)
+	    stats.set_bool("MPX_AWD_ASSONATTACKSWIN", true)
+	    stats.set_bool("MPX_AWD_ASSONDEFENDWIN", true)
+	    stats.set_int("MPX_AWD_ASSONBONUSOBJ", 50)
+	    stats.set_int("MPX_AWD_ASSONHARDDRIVE", 50)
+	    stats.set_int("MPX_AWD_FROSTBITE", 50)
+	    stats.set_bool("MPX_AWD_DISEASECONTROL", true)
+        stats.set_bool("MPX_AWD_MAZE_BANK_ROBBERY", true) --Bottoms Dollar Bounties Awards.
+	    stats.set_bool("MPX_AWD_CARGO_SHIP_ROBBERY", true)
+	    stats.set_bool("MPX_AWD_DIAMOND_CASINO_ROBBERY", true)
+	    stats.set_bool("MPX_AWD_MISSION_ROW_ROBBERY", true)
+	    stats.set_bool("MPX_AWD_SUBMARINE_ROBBERY", true)
+	    stats.set_bool("MPX_AWD_PERFECT_RUN", true)
+	    stats.set_bool("MPX_AWD_EXTRA_MILE", true)
+	    stats.set_int("MPX_AWD_VEHICLE_ROBBERIES", 50)
+	    stats.set_int("MPX_AWD_PREP_WORK", 50)
+	    stats.set_int("MPX_AWD_CAR_DEALER", 5000000)
+	    stats.set_int("MPX_AWD_SECOND_HAND_PARTS", 5000000)
+	    stats.set_int("MPX_AWD_TOW_TRUCK_SERVICE", 50)
+	    stats.set_bool("MPX_AWD_BOLINGBROKE", true)
+	    stats.set_bool("MPX_AWD_GETTING_SET_UP", true)
+	    stats.set_bool("MPX_AWD_CHICKEN_FACTORY_RAID", true)
+	    stats.set_bool("MPX_AWD_HELPING_HAND2", true)
+	    stats.set_bool("MPX_AWD_SURPRISE_ATTACK", true)
+	    stats.set_bool("MPX_AWD_ALL_OUT_RAID", true)
+	    stats.set_bool("MPX_AWD_WEAPON_ARSENAL", true)
+	    stats.set_bool("MPX_AWD_GETAWAY_VEHICLES", true)
         stats.set_packed_stat_int(3032, 100) --Trade price for oppressor2.
         if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE3") & 0x80000000) == 0 then --Buy the WM 29 Pistol. (We need this or else the user can't hide it from the weapons locker if they wish)
             buy_weapon(joaat("WP_WT_PISTOLXM3_t0_v0"))
