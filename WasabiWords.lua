@@ -940,7 +940,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_HUB_SALES_COMPLETED", 10) --Trade price for mule4, pounder2.
         stats.set_int("MPX_NIGHTCLUB_JOBS_DONE", 10) --Trade price for patriot2, blimp3.
         stats.set_int("MPX_YACHT_MISSION_FLOW", -1) --Complete all A Superyacht Life missions so the Captain doesn't call you constantly.
-        stats.set_bool("AWD_HIVALBOUNT1", true) --Bottoms Dollar Bounties Awards.
+        --Bottoms Dollar Bounties Awards.
+		stats.set_bool("AWD_HIVALBOUNT1", true) 
 	    stats.set_bool("AWD_HIVALBOUNT2", true)
 	    stats.set_bool("AWD_HIVALBOUNT3", true)
 	    stats.set_bool("AWD_HIVALBOUNT4", true)
@@ -958,7 +959,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
 	    stats.set_int("MPX_AWD_ASSONHARDDRIVE", 50)
 	    stats.set_int("MPX_AWD_FROSTBITE", 50)
 	    stats.set_bool("MPX_AWD_DISEASECONTROL", true)
-        stats.set_bool("MPX_AWD_MAZE_BANK_ROBBERY", true) --Bottoms Dollar Bounties Awards.
+		--Bottoms Dollar Bounties Awards.
+        stats.set_bool("MPX_AWD_MAZE_BANK_ROBBERY", true) 
 	    stats.set_bool("MPX_AWD_CARGO_SHIP_ROBBERY", true)
 	    stats.set_bool("MPX_AWD_DIAMOND_CASINO_ROBBERY", true)
 	    stats.set_bool("MPX_AWD_MISSION_ROW_ROBBERY", true)
