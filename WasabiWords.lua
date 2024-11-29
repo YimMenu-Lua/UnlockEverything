@@ -273,6 +273,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_packed_stat_int(22058, 20) --Gold Business Battle Trophy (Nightclub)
         stats.set_packed_stat_int(22063, 20) --Dinka Go Go Monkey Blista
         stats.set_packed_stat_int(41237, 10) --Taxi Livery
+        stats.set_int('MPX_FM_CUT_DONE', -1) -- Skip Interior Tutorials
+        stats.set_int('MPX_FM_CUT_DONE_2', -1) -- Skip Interior Tutorials 2
         stats.set_int('MPPLY_CREW_NO_HEISTS_0', 2)
         stats.set_int('MPPLY_CREW_NO_HEISTS_1', 5)
         stats.set_int('MPPLY_CREW_NO_HEISTS_2', 5)
@@ -829,7 +831,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_bool("MPX_BS_IMANI_D_APP_HOOD", true)
         stats.set_bool("MPX_BS_IMANI_D_APP_HOOD_2", true)
         stats.set_bool("MPX_BS_IMANI_D_APP_HOOD_F", true)
-        unlock_packed_bools(32312, 32312)
+        unlock_packed_bools(32312, 32312) -- Agency Computer Tutorial
         stats.set_int('MPX_REV_NV_KILLS', 50) -- Navy Revolver Kills
         stats.set_int("MPX_XM22_FLOW", -1) -- Acid Lab Unlock
         stats.set_int("MPX_XM22_MISSIONS", -1) -- Acid Lab Unlock
