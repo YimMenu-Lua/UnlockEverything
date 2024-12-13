@@ -23,11 +23,6 @@ function buy_weapon(weapon_joaat)
     NETSHOPPING.NET_GAMESERVER_CHECKOUT_START(transaction_id)
 end
 
--- Look for what reads DISABLE_DAILY_OBJECTIVES and then there should be a while loop that stops at 3.
-local current_objectives_global = 2359296
-local weekly_words_global = 2737993
-local objectives_state_global = 1574744
-
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
 wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasabi
@@ -972,12 +967,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x20) == 0 then --Buy The Shocker. (We need this or else the user can't hide it from the weapons locker if they wish)
             buy_weapon(joaat("WP_WT_STUNROD_t1_v1"))
         end
-        for i = 0, 2 do --Unlock all daily rewards.
-            local objective = globals.get_int(current_objectives_global + (1 + (0 * 5570)) + 681 + 4244 + (1 + (i * 3)))
-            globals.set_int(objectives_state_global + 1 + (1 + (i * 1)), objective)
-        end
-        globals.set_int(objectives_state_global, 1)
-        globals.set_int(weekly_words_global + (1 + (0 * 6)) + 1, globals.get_int(weekly_words_global + (1 + (0 * 6)) + 2)) --Unlock Weekly Objective
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
     end)
