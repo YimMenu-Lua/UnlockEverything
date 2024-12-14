@@ -204,7 +204,8 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(42016, 42016) -- Trade price for polfaction2
         unlock_packed_bools(51283, 51283) -- Trade price for cargobob5
         unlock_packed_bools(51285, 51285) -- Trade price for titan2
-        unlock_packed_bools(54637, 54638) -- Trade price for duster2, ratel        
+        unlock_packed_bools(54637, 54638) -- Trade price for duster2, ratel
+        unlock_packed_bools(51273, 51275) -- Bronze Idol, Ornamental Egg, Tiki Statue
         unlock_packed_bools(54569, 54569) -- Gold Snake Santo Capra Outfit
         unlock_packed_bools(54651, 54651) -- Black Snake Yogarishima Outfit
         unlock_packed_bools(54570, 54570) -- The Armored Merryweather
@@ -954,18 +955,34 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_YACHT_MISSION_FLOW", -1) --Complete all A Superyacht Life missions so the Captain doesn't call you constantly.
         stats.set_packed_stat_int(3032, 100) --Trade price for oppressor2.
         stats.set_int("MPX_HACKER24_GEN_BS", -1) -- Trade price for predator and garment factory trophies
-        stats.set_int("MPX_AWD_DISPATCHWORK", 10) -- Trade price for polcoquette4        
-        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE3") & 0x80000000) == 0 then --Buy the WM 29 Pistol. (We need this or else the user can't hide it from the weapons locker if they wish)
-            buy_weapon(joaat("WP_WT_PISTOLXM3_t0_v0"))
+        stats.set_int("MPX_AWD_DISPATCHWORK", 10) -- Trade price for polcoquette4
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE3") & 0x80000000) == 0 then -- Buy the WM 29 Pistol. (We need this or else the user can't hide it from the weapons locker if they wish)
+            if NETSHOPPING.NET_GAMESERVER_USE_SERVER_TRANSACTIONS() then -- Check for FSL
+                buy_weapon(joaat("WP_WT_PISTOLXM3_t0_v0"))
+            else
+                stats.set_int("MPX_CHAR_WEAP_FM_PURCHASE3", stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE3") | 0x80000000)
+            end
+        end     
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 1) == 0 then -- Buy the Candy Cane. (We need this or else the user can't hide it from the weapons locker if they wish)
+            if NETSHOPPING.NET_GAMESERVER_USE_SERVER_TRANSACTIONS() then -- Check for FSL
+                buy_weapon(joaat("WP_WT_CANDYCANE_t1_v0"))
+            else
+                stats.set_int("MPX_CHAR_WEAP_FM_PURCHASE4", stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") | 1)
+            end
+        end   
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x10) == 0 then -- Buy the Snowball Launcher. (We need this or else the user can't hide it from the weapons locker if they wish)
+            if NETSHOPPING.NET_GAMESERVER_USE_SERVER_TRANSACTIONS() then -- Check for FSL
+                buy_weapon(joaat("WP_WT_SNOWLAUNCHER_t0_v0"))
+            else
+                stats.set_int("MPX_CHAR_WEAP_FM_PURCHASE4", stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") | 0x10)
+            end
         end
-        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 1) == 0 then --Buy the Candy Cane. (We need this or else the user can't hide it from the weapons locker if they wish)
-            buy_weapon(joaat("WP_WT_CANDYCANE_t1_v0"))
-        end
-        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x10) == 0 then --Buy the Snowball Launcher. (We need this or else the user can't hide it from the weapons locker if they wish)
-            buy_weapon(joaat("WP_WT_SNOWLAUNCHER_t0_v0"))
-        end
-        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x20) == 0 then --Buy The Shocker. (We need this or else the user can't hide it from the weapons locker if they wish)
-            buy_weapon(joaat("WP_WT_STUNROD_t1_v1"))
+        if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") & 0x20) == 0 then -- Buy The Shocker. (We need this or else the user can't hide it from the weapons locker if they wish)
+            if NETSHOPPING.NET_GAMESERVER_USE_SERVER_TRANSACTIONS() then -- Check for FSL
+                buy_weapon(joaat("WP_WT_STUNROD_t1_v1"))
+            else
+                stats.set_int("MPX_CHAR_WEAP_FM_PURCHASE4", stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") | 0x20)
+            end
         end
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
