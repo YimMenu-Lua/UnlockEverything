@@ -206,6 +206,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         unlock_packed_bools(51285, 51285) -- Trade price for titan2
         unlock_packed_bools(54637, 54638) -- Trade price for duster2, ratel
         unlock_packed_bools(51273, 51275) -- Bronze Idol, Ornamental Egg, Tiki Statue
+        unlock_packed_bools(51302, 51337) -- Yuanbao Treasures
         unlock_packed_bools(54569, 54569) -- Gold Snake Santo Capra Outfit
         unlock_packed_bools(54651, 54651) -- Black Snake Yogarishima Outfit
         unlock_packed_bools(54570, 54570) -- The Armored Merryweather
