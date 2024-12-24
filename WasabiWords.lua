@@ -23,6 +23,49 @@ function buy_weapon(weapon_joaat)
     NETSHOPPING.NET_GAMESERVER_CHECKOUT_START(transaction_id)
 end
 
+-- TO-DO: Some awards get reset due to the stat tracking system in freemode. Fix it.
+-- TO-DO: Unlock MPPLY awards as well.
+function unlock_all_awards()
+    if network.is_session_started() then
+        local mp_stats_char_mapping_data = memory.scan_pattern("48 8D 0D ? ? ? ? 8B D6 48 8B 5C 24 ? 48 8B 74 24"):add(3):rip()
+        if mp_stats_char_mapping_data:is_valid() then
+            local mp_int_awards_data       = mp_stats_char_mapping_data:add(0xC8)
+            local mp_bool_awards_data      = mp_stats_char_mapping_data:add(0xF8)
+            local max_mp_int_awards_index  = mp_int_awards_data:add(0x08):get_int()
+            local max_mp_bool_awards_index = mp_bool_awards_data:add(0x08):get_int()
+            log.info("=============== UNLOCKING ALL INT AWARDS ===============")
+            for index = 0, max_mp_int_awards_index - 1 do
+                local stat_hash        = STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, index, stats.get_character_index())
+                local _, current_value = STATS.STAT_GET_INT(stat_hash, current_value, -1)
+                local platinum_value   = scr_function.call_script_function("main_persistent", "GIASV", "2D 03 05 00 00 38 02 71", "int", {
+                    { "int", index }, -- Award Index
+                    { "int", 5 },     -- Award Stage (5 is platinum)
+                    { "int", 0 }      -- ???
+                })
+                if current_value < platinum_value then
+                    STATS.STAT_SET_INT(stat_hash, platinum_value, true)
+                    log.info("STAT_SET_INT(" .. stat_hash .. ", " .. platinum_value .. ", true) - " .. index)
+                else
+                    log.info("Skipped stat " .. stat_hash .. " (" .. index .. ") as the current value is already greater than the platinum value. (" .. current_value .. " >= " .. platinum_value .. ")")
+                end
+            end
+            log.info("Finished unlocking all INT awards.")
+            log.info("=============== UNLOCKING ALL BOOL AWARDS ===============")
+            for index = 0, max_mp_bool_awards_index - 1 do
+                local stat_hash        = STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(10, index, stats.get_character_index())
+                local _, current_value = STATS.STAT_GET_BOOL(stat_hash, current_value, -1)
+                if not current_value then
+                    STATS.STAT_SET_BOOL(stat_hash, true, true)
+                    log.info("STAT_SET_BOOL(" .. stat_hash .. ", true, true) - " .. index)
+                else
+                    log.info("Skipped stat " .. stat_hash .. " (" .. index .. ") as the current value is already true.")
+                end
+            end
+            log.info("Finished unlocking all BOOL awards.")
+        end
+    end
+end
+
 wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
 wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasabi
@@ -985,6 +1028,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
                 stats.set_int("MPX_CHAR_WEAP_FM_PURCHASE4", stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") | 0x20)
             end
         end
+        unlock_all_awards()
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
     end)
