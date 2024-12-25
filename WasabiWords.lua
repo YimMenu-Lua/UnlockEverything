@@ -1,10 +1,12 @@
-function unlock_packed_bools(from, to)
+local wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
+
+local function unlock_packed_bools(from, to)
     for i = from, to do
         stats.set_packed_stat_bool(i, true)
     end
 end
 
-function buy_weapon(weapon_joaat)
+local function buy_weapon(weapon_joaat)
     if NETSHOPPING.NET_GAMESERVER_BASKET_IS_ACTIVE() then
         NETSHOPPING.NET_GAMESERVER_BASKET_END()
     end
@@ -23,9 +25,7 @@ function buy_weapon(weapon_joaat)
     NETSHOPPING.NET_GAMESERVER_CHECKOUT_START(transaction_id)
 end
 
--- TO-DO: Some awards get reset due to the stat tracking system in freemode. Fix it.
--- TO-DO: Unlock MPPLY awards as well.
-function unlock_all_awards()
+local function unlock_all_character_awards()
     if network.is_session_started() then
         local mp_stats_char_mapping_data = memory.scan_pattern("48 8D 0D ? ? ? ? 8B D6 48 8B 5C 24 ? 48 8B 74 24"):add(3):rip()
         if mp_stats_char_mapping_data:is_valid() then
@@ -33,7 +33,6 @@ function unlock_all_awards()
             local mp_bool_awards_data      = mp_stats_char_mapping_data:add(0xF8)
             local max_mp_int_awards_index  = mp_int_awards_data:add(0x08):get_int()
             local max_mp_bool_awards_index = mp_bool_awards_data:add(0x08):get_int()
-            log.info("=============== UNLOCKING ALL INT AWARDS ===============")
             for index = 0, max_mp_int_awards_index - 1 do
                 local stat_hash        = STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(8, index, stats.get_character_index())
                 local _, current_value = STATS.STAT_GET_INT(stat_hash, current_value, -1)
@@ -44,29 +43,18 @@ function unlock_all_awards()
                 })
                 if current_value < platinum_value then
                     STATS.STAT_SET_INT(stat_hash, platinum_value, true)
-                    log.info("STAT_SET_INT(" .. stat_hash .. ", " .. platinum_value .. ", true) - " .. index)
-                else
-                    log.info("Skipped stat " .. stat_hash .. " (" .. index .. ") as the current value is already greater than the platinum value. (" .. current_value .. " >= " .. platinum_value .. ")")
                 end
             end
-            log.info("Finished unlocking all INT awards.")
-            log.info("=============== UNLOCKING ALL BOOL AWARDS ===============")
             for index = 0, max_mp_bool_awards_index - 1 do
                 local stat_hash        = STATS.GET_STAT_HASH_FOR_CHARACTER_STAT_(10, index, stats.get_character_index())
                 local _, current_value = STATS.STAT_GET_BOOL(stat_hash, current_value, -1)
                 if not current_value then
                     STATS.STAT_SET_BOOL(stat_hash, true, true)
-                    log.info("STAT_SET_BOOL(" .. stat_hash .. ", true, true) - " .. index)
-                else
-                    log.info("Skipped stat " .. stat_hash .. " (" .. index .. ") as the current value is already true.")
                 end
             end
-            log.info("Finished unlocking all BOOL awards.")
         end
     end
 end
-
-wasabi_words = gui.get_tab("GUI_TAB_NETWORK"):add_tab("Unlock All") --WasabiWords™️
 
 wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasabi
     script.run_in_fiber(function (wasabiwords_script)
@@ -328,13 +316,20 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_packed_stat_int(22058, 20) --Gold Business Battle Trophy (Nightclub)
         stats.set_packed_stat_int(22063, 20) --Dinka Go Go Monkey Blista
         stats.set_packed_stat_int(41237, 10) --Taxi Livery
-        stats.set_int('MPX_FM_CUT_DONE', -1) -- Skip Interior Tutorials
-        stats.set_int('MPX_FM_CUT_DONE_2', -1) -- Skip Interior Tutorials 2
-        stats.set_int('MPPLY_CREW_NO_HEISTS_0', 2)
-        stats.set_int('MPPLY_CREW_NO_HEISTS_1', 5)
-        stats.set_int('MPPLY_CREW_NO_HEISTS_2', 5)
-        stats.set_int('MPPLY_CREW_NO_HEISTS_3', 5)
-        stats.set_int('MPPLY_CREW_NO_HEISTS_4', 5)
+        stats.set_int('MPPLY_AWD_FM_CR_RACES_MADE', 25)
+        stats.set_int('MPPLY_AWD_FM_CR_DM_MADE', 25)
+        stats.set_int('MPPLY_AWD_FM_CR_PLAYED_BY_PEEP', 100) -- TO-DO: This stat is overriden by DATADICT_GET_INT(dict "pt") each time fm_maintain_cloud_header_data is lauched. Using DATADICT_SET_INT only worked temporarily. See if you can find a workaround.
+        stats.set_int('MPPLY_AWD_FM_CR_MISSION_SCORE', 100) -- TO-DO: This stat is overriden by UGC_GET_CONTENT_RATING_POSITIVE_COUNT each time fm_maintain_cloud_header_data is lauched. See if you can find a workaround.
+        stats.set_bool("MPPLY_AWD_FLEECA_FIN", true)
+        stats.set_bool("MPPLY_AWD_PRISON_FIN", true)
+        stats.set_bool("MPPLY_AWD_HUMANE_FIN", true)
+        stats.set_bool("MPPLY_AWD_SERIESA_FIN", true)
+        stats.set_bool("MPPLY_AWD_PACIFIC_FIN", true)
+        stats.set_bool("MPPLY_AWD_HST_ORDER", true)
+        stats.set_bool("MPPLY_AWD_HST_SAME_TEAM", true)
+        stats.set_bool("MPPLY_AWD_HST_ULT_CHAL", true)
+        stats.set_bool("MPPLY_AWD_COMPLET_HEIST_1STPER", true)
+        stats.set_bool("MPPLY_AWD_COMPLET_HEIST_MEM", true)
         stats.set_int('MPPLY_GANGOPS_LOYALTY2', -1)
         stats.set_int('MPPLY_GANGOPS_LOYALTY3', -1)
         stats.set_int('MPPLY_GANGOPS_CRIMMASMD2', -1)
@@ -342,7 +337,25 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPPLY_GANGOPS_SUPPORT', -1)
         stats.set_int('MPPLY_GANGOPS_ALLINORDER', -1)
         stats.set_int('MPPLY_GANGOPS_LOYALTY', -1)
-        stats.set_int('MPPLY_GANGOPS_CRIMMASMD', -1)
+        stats.set_int('MPPLY_GANGOPS_CRIMMASMD', -1)		
+        stats.set_bool("MPPLY_AWD_GANGOPS_IAA", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_SUBMARINE", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_ALLINORDER", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_LOYALTY", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_CRIMMASMD", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_MISSILE", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_LOYALTY2", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_LOYALTY3", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_CRIMMASMD2", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_CRIMMASMD3", true)
+        stats.set_bool("MPPLY_AWD_GANGOPS_SUPPORT", true)
+        stats.set_int('MPPLY_CREW_NO_HEISTS_0', 2)
+        stats.set_int('MPPLY_CREW_NO_HEISTS_1', 5)
+        stats.set_int('MPPLY_CREW_NO_HEISTS_2', 5)
+        stats.set_int('MPPLY_CREW_NO_HEISTS_3', 5)
+        stats.set_int('MPPLY_CREW_NO_HEISTS_4', 5)
+        stats.set_int('MPX_FM_CUT_DONE', -1) -- Skip Interior Tutorials
+        stats.set_int('MPX_FM_CUT_DONE_2', -1) -- Skip Interior Tutorials 2		
         stats.set_int('MPPLY_XMASLIVERIES0', -1)
         stats.set_int('MPPLY_XMASLIVERIES1', -1)
         stats.set_int('MPPLY_XMASLIVERIES2', -1)
@@ -364,6 +377,34 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int('MPPLY_XMASLIVERIES18', -1)
         stats.set_int('MPPLY_XMASLIVERIES19', -1)
         stats.set_int('MPPLY_XMASLIVERIES20', -1)
+        stats.set_int("MPX_GRENADE_ENEMY_KILLS", 50)
+        stats.set_int("MPX_BIKES_EXPLODED", 100)
+        stats.set_int("MPX_BOATS_EXPLODED", 100)
+        stats.set_int("MPX_HELIS_EXPLODED", 100)
+        stats.set_int("MPX_PLANES_EXPLODED", 100)
+        stats.set_int("MPX_QUADBIKE_EXPLODED", 100)
+        stats.set_int("MPX_BICYCLE_EXPLODED", 100)
+        stats.set_int("MPX_SUBMARINE_EXPLODED", 100)
+        stats.set_int("MPX_TRAIN_EXPLODED", 100)
+        stats.set_int("MPX_CARS_EXPLODED", 100)
+        stats.set_int("MPX_CARS_COPS_EXPLODED", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_CARS", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_BIKES", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_BOATS", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_HELIS", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_PLANES", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_QUADBIKES", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_BICYCLES", 100)
+        stats.set_int("MPX_NUMBER_STOLEN_SUBMARINES", 100)
+        stats.set_int("MPX_NO_STOLEN_VEH_SCRIPT", 100)
+        stats.set_int("MPX_DB_PLAYER_KILLS", 100)
+        stats.set_int("MPX_PASS_DB_PLAYER_KILLS", 100)
+        stats.set_int("MPX_AIR_LAUNCHES_OVER_40M", 25)
+        stats.set_int("MPX_MOST_ARM_WRESTLING_WINS", 25)
+        stats.set_int("MPX_KILLS_PLAYERS", 1000)
+        stats.set_int("MPX_CHAR_WANTED_LEVEL_TIME5STAR", 7200000)
+        stats.set_int("MPX_MOST_FLIPS_IN_ONE_JUMP", 5)
+        stats.set_int("MPX_MOST_SPINS_IN_ONE_JUMP", 5)
         stats.set_int('MPX_HOLDUPS_BITSET', -1)
         stats.set_int('MPX_CHAR_ABILITY_1_UNLCK', -1)
         stats.set_int('MPX_CHAR_ABILITY_2_UNLCK', -1)
@@ -899,9 +940,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_int("MPX_SUM23_AVOP_PROGRESS", -1) -- Trade Price Raiju
         stats.set_int("MPX_GANGOPS_FLOW_BITSET_MISS0", -1) -- Trade Price for deluxo/akula/riot2/stromberg/chernobog/barrage/khanjali/volatol/thruster
         stats.set_bool("MPX_AWD_TAXISTAR", true) -- Trade Price for taxi
-        stats.set_bool("MPPLY_AWD_HST_ORDER", true)
-        stats.set_bool("MPPLY_AWD_HST_SAME_TEAM", true)
-        stats.set_bool("MPPLY_AWD_HST_ULT_CHAL", true)
         stats.set_int("MPPLY_HEISTFLOWORDERPROGRESS", -1)
         stats.set_int("MPPLY_HEISTNODEATHPROGREITSET", -1)
         stats.set_int("MPPLY_HEISTTEAMPROGRESSBITSET", -1)
@@ -1000,6 +1038,7 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
         stats.set_packed_stat_int(3032, 100) --Trade price for oppressor2.
         stats.set_int("MPX_HACKER24_GEN_BS", -1) -- Trade price for predator and garment factory trophies
         stats.set_int("MPX_AWD_DISPATCHWORK", 10) -- Trade price for polcoquette4
+        unlock_all_character_awards()
         if (stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE3") & 0x80000000) == 0 then -- Buy the WM 29 Pistol. (We need this or else the user can't hide it from the weapons locker if they wish)
             if NETSHOPPING.NET_GAMESERVER_USE_SERVER_TRANSACTIONS() then -- Check for FSL
                 buy_weapon(joaat("WP_WT_PISTOLXM3_t0_v0"))
@@ -1028,7 +1067,6 @@ wasabi_words:add_button("ShinyWasabi", function() --Original script by ShinyWasa
                 stats.set_int("MPX_CHAR_WEAP_FM_PURCHASE4", stats.get_int("MPX_CHAR_WEAP_FM_PURCHASE4") | 0x20)
             end
         end
-        unlock_all_awards()
         gui.show_message('WasabiWordsTM', 'Clichés Subverted')
     end)
     end)
